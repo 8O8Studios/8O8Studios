@@ -10,10 +10,14 @@ const SORT = { latest: 3, bestSelling: 2, favorited: 1 };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function get(url) {
-  for (let i = 1; i <= 6; i++) {
+  for (let i = 1; i <= 8; i++) {
     const res = await fetch(url, { headers: { accept: "application/json" } });
     if (res.ok) return res.json();
-    if (res.status === 429) { await sleep(3000 * i); continue; }
+    if (res.status === 429) { 
+      console.log(`Rate limited (429) on ${url}. Retrying in ${5 * i} seconds...`);
+      await sleep(5000 * i); 
+      continue; 
+    }
     throw new Error(`${res.status} for ${url}`);
   }
   throw new Error(`Rate limited: ${url}`);
@@ -22,12 +26,11 @@ async function get(url) {
 async function fetchItems(groupId, sort) {
   const url = `https://catalog.roblox.com/v1/search/items/details?CreatorTargetId=${groupId}&CreatorType=Group&SortType=${sort}&Limit=30`;
   const json = await get(url);
-  await sleep(600);
+  await sleep(1500); // Increased delay to avoid rate limits
   return (json.data || []).slice(0, PER_ROW).map((i) => ({
     id: i.id,
     name: i.name,
     favorites: i.favoriteCount ?? 0,
-    // Properly capture price from Roblox API fields
     price: i.price ?? i.lowestPrice ?? null,
     priceStatus: i.priceStatus ?? null,
     description: i.description ?? "",
@@ -38,7 +41,7 @@ async function fetchItems(groupId, sort) {
 const groups = [];
 for (const id of GROUP_IDS) {
   const info = await get(`https://groups.roblox.com/v1/groups/${id}`);
-  await sleep(600);
+  await sleep(1500);
   const latest = await fetchItems(id, SORT.latest);
   const bestSelling = await fetchItems(id, SORT.bestSelling);
   const favorited = (await fetchItems(id, SORT.favorited)).sort((a, b) => b.favorites - a.favorites);
@@ -53,7 +56,7 @@ for (let i = 0; i < ids.length; i += 100) {
   const batch = ids.slice(i, i + 100).join(",");
   const json = await get(`https://thumbnails.roblox.com/v1/assets?assetIds=${batch}&size=420x420&format=Png&isCircular=false`);
   for (const t of json.data || []) thumbs[t.targetId] = t.imageUrl;
-  await sleep(600);
+  await sleep(1500);
 }
 for (const g of groups) for (const row of [g.latest, g.bestSelling, g.favorited]) for (const item of row) item.image = thumbs[item.id] || null;
 
