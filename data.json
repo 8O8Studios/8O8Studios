@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T16:31:29.269Z",
+ "updated": "2026-11-03T19:24:31.630Z",
  "groups": [
   {
    "id": 32663795,
@@ -41,7 +41,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7262,
+     "favorites": 7266,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -142,7 +142,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7262,
+     "favorites": 7266,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -276,7 +276,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7262,
+     "favorites": 7266,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -7923,7 +7923,7 @@
     {
      "id": 79396333458067,
      "name": "White Knit Beanie 🤍",
-     "favorites": 0,
+     "favorites": 1,
      "price": 95,
      "priceStatus": null,
      "description": "Beanie 🤍",
@@ -8066,7 +8066,7 @@
     {
      "id": 87239277576804,
      "name": "Red Star Bag ❤️ (1.0)",
-     "favorites": 1,
+     "favorites": 2,
      "price": 55,
      "priceStatus": null,
      "description": "All the carrying space u need!",
@@ -9201,7 +9201,7 @@
     {
      "id": 87638006058794,
      "name": "Hair 🤎",
-     "favorites": 76,
+     "favorites": 77,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9562,17 +9562,6 @@
      "category": "Hair"
     },
     {
-     "id": 70610968465353,
-     "name": "Yellow Vampire Duck Plushie 🦆",
-     "favorites": 14,
-     "price": 95,
-     "priceStatus": null,
-     "description": "🦆A tiny, cheerful duck that loves perching on your head.\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-264ded23451575410b62775ae31fb9f6/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
      "id": 112836844234308,
      "name": "Red Skeleton Skateboard ☠️",
      "favorites": 1,
@@ -9582,6 +9571,17 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-b1dfb7639ed34d55b6a53a4c99903642/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories"
+    },
+    {
+     "id": 70610968465353,
+     "name": "Yellow Vampire Duck Plushie 🦆",
+     "favorites": 14,
+     "price": 95,
+     "priceStatus": null,
+     "description": "🦆A tiny, cheerful duck that loves perching on your head.\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-264ded23451575410b62775ae31fb9f6/420/420/Hat/Png/noFilter",
+     "category": "Hats"
     },
     {
      "id": 73941293274015,
@@ -10002,6 +10002,17 @@
      "category": "Hair"
     },
     {
+     "id": 130032759769178,
+     "name": "White Bat Aura 🤍",
+     "favorites": 1,
+     "price": 55,
+     "priceStatus": null,
+     "description": "An aura fit for dracula!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-80bc2ff32780f493d73d7a59e178dece/420/420/FrontAccessory/Png/noFilter",
+     "category": "Front Accessories"
+    },
+    {
      "id": 72254931546109,
      "name": "Blonde Straightened Girl Hair 💛 (With Horns)",
      "favorites": 1,
@@ -10055,17 +10066,6 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-67fec44ffd44957dde15d7bb5f03d981/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories"
-    },
-    {
-     "id": 130032759769178,
-     "name": "White Bat Aura 🤍",
-     "favorites": 1,
-     "price": 55,
-     "priceStatus": null,
-     "description": "An aura fit for dracula!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-80bc2ff32780f493d73d7a59e178dece/420/420/FrontAccessory/Png/noFilter",
-     "category": "Front Accessories"
     },
     {
      "id": 131874420431497,
@@ -10299,17 +10299,6 @@
      "category": "Hats"
     },
     {
-     "id": 127560081606403,
-     "name": "Blue Devil Wings 💙",
-     "favorites": 1,
-     "price": 140,
-     "priceStatus": null,
-     "description": "Fly through the spooky season!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-32fe4e21d69b62e301217687479859d4/420/420/BackAccessory/Png/noFilter",
-     "category": "Back Accessories"
-    },
-    {
      "id": 128418955172441,
      "name": "Teeth 🦷",
      "favorites": 24,
@@ -10319,6 +10308,17 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-40cae0f161cd11acc57921603341af7c/420/420/Hat/Png/noFilter",
      "category": "Hats"
+    },
+    {
+     "id": 127560081606403,
+     "name": "Blue Devil Wings 💙",
+     "favorites": 1,
+     "price": 140,
+     "priceStatus": null,
+     "description": "Fly through the spooky season!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-32fe4e21d69b62e301217687479859d4/420/420/BackAccessory/Png/noFilter",
+     "category": "Back Accessories"
     },
     {
      "id": 72563943477535,
@@ -10521,7 +10521,7 @@
     {
      "id": 87239277576804,
      "name": "Red Star Bag ❤️ (1.0)",
-     "favorites": 1,
+     "favorites": 2,
      "price": 55,
      "priceStatus": null,
      "description": "All the carrying space u need!",
@@ -10719,7 +10719,7 @@
     {
      "id": 79396333458067,
      "name": "White Knit Beanie 🤍",
-     "favorites": 0,
+     "favorites": 1,
      "price": 95,
      "priceStatus": null,
      "description": "Beanie 🤍",
@@ -10864,7 +10864,7 @@
     {
      "id": 87638006058794,
      "name": "Hair 🤎",
-     "favorites": 76,
+     "favorites": 77,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -11544,17 +11544,6 @@
      "category": "Back Accessories"
     },
     {
-     "id": 126909531056398,
-     "name": "Black Devil Wings 🖤",
-     "favorites": 3,
-     "price": 140,
-     "priceStatus": null,
-     "description": "Fly through the spooky season!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-da797444d3c6aef38c25b13ac49574e8/420/420/BackAccessory/Png/noFilter",
-     "category": "Back Accessories"
-    },
-    {
      "id": 87331207218083,
      "name": "Point 👉🏻",
      "favorites": 3,
@@ -11564,6 +11553,17 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-d020dd7ffd602093e859ab07371c801c/420/420/EmoteAnimation/Png/noFilter",
      "category": "Emotes"
+    },
+    {
+     "id": 126909531056398,
+     "name": "Black Devil Wings 🖤",
+     "favorites": 3,
+     "price": 140,
+     "priceStatus": null,
+     "description": "Fly through the spooky season!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-da797444d3c6aef38c25b13ac49574e8/420/420/BackAccessory/Png/noFilter",
+     "category": "Back Accessories"
     },
     {
      "id": 124791328601957,
@@ -11753,6 +11753,17 @@
      "category": "Emotes"
     },
     {
+     "id": 87239277576804,
+     "name": "Red Star Bag ❤️ (1.0)",
+     "favorites": 2,
+     "price": 55,
+     "priceStatus": null,
+     "description": "All the carrying space u need!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-a9f9e9a9ff916aa19a19b8b72aceb9a6/420/420/FrontAccessory/Png/noFilter",
+     "category": "Front Accessories"
+    },
+    {
      "id": 137884057692236,
      "name": "Glowing Black Witch Hat 🖤",
      "favorites": 1,
@@ -11885,17 +11896,6 @@
      "category": "Hats"
     },
     {
-     "id": 136423505628279,
-     "name": "White Hood 🤍",
-     "favorites": 1,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Stay mysterious",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-33ab23a28e95ab578b6ddcd1fc24b791/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
      "id": 95744176557245,
      "name": "Black Phone 🖤",
      "favorites": 1,
@@ -11904,6 +11904,17 @@
      "description": "Got to take this real quick!",
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-bde2f914f551da96b95ffef69aa5b70b/420/420/Hat/Png/noFilter",
+     "category": "Hats"
+    },
+    {
+     "id": 136423505628279,
+     "name": "White Hood 🤍",
+     "favorites": 1,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Stay mysterious",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-33ab23a28e95ab578b6ddcd1fc24b791/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -11916,17 +11927,6 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-99196c2edcefa71efdef60e23747d3aa/420/420/Hat/Png/noFilter",
      "category": "Hats"
-    },
-    {
-     "id": 87239277576804,
-     "name": "Red Star Bag ❤️ (1.0)",
-     "favorites": 1,
-     "price": 55,
-     "priceStatus": null,
-     "description": "All the carrying space u need!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-a9f9e9a9ff916aa19a19b8b72aceb9a6/420/420/FrontAccessory/Png/noFilter",
-     "category": "Front Accessories"
     },
     {
      "id": 112918162807851,
@@ -12149,17 +12149,6 @@
      "category": "Hats"
     },
     {
-     "id": 131379817690595,
-     "name": "Purple Black Frame Glasses 👓",
-     "favorites": 1,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Classy\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-e33c9cbddcd57840290295797dfbce9b/420/420/FaceAccessory/Png/noFilter",
-     "category": "Face Accessories"
-    },
-    {
      "id": 112883646647801,
      "name": "White Fluffy Boy Hair 🤍",
      "favorites": 1,
@@ -12169,6 +12158,17 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-c55c6d8a97ff3641134a1a03f8bb91fa/420/420/HairAccessory/Png/noFilter",
      "category": "Hair"
+    },
+    {
+     "id": 131379817690595,
+     "name": "Purple Black Frame Glasses 👓",
+     "favorites": 1,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Classy\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-e33c9cbddcd57840290295797dfbce9b/420/420/FaceAccessory/Png/noFilter",
+     "category": "Face Accessories"
     },
     {
      "id": 134556175492385,
