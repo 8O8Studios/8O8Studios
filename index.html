@@ -85,23 +85,28 @@ h1 span{
 main{padding:20px clamp(16px,4vw,48px) 64px}
 .count{margin:0 0 20px;color:var(--muted);font-size:.9rem}
 
-/* Vertical stack of category rows */
+/* Container holding all horizontal category rows */
 .rows-container {
   display: flex;
   flex-direction: column;
-  gap: 36px;
+  gap: 32px;
   width: 100%;
 }
 
+/* Individual Category Row Box */
 .category-row {
   display: flex;
   flex-direction: column;
   gap: 12px;
   width: 100%;
+  background: rgba(255,255,255,.02);
+  border: 1px solid rgba(157,133,255,.15);
+  border-radius: 24px;
+  padding: 18px 20px;
 }
 
 .category-title {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 800;
   margin: 0;
   color: var(--text);
@@ -111,12 +116,12 @@ main{padding:20px clamp(16px,4vw,48px) 64px}
   gap: 10px;
 }
 .category-title span {
-  font-size: .85rem;
+  font-size: .8rem;
   color: #a995ed;
   font-weight: 700;
 }
 
-/* Horizontal scrolling track for items going sideways */
+/* Horizontal Sideways Scrolling Track */
 .row-items {
   display: flex;
   flex-direction: row;
@@ -124,16 +129,16 @@ main{padding:20px clamp(16px,4vw,48px) 64px}
   gap: 16px;
   overflow-x: auto;
   overflow-y: hidden;
-  padding: 8px 4px 16px;
+  padding: 4px 2px 14px;
   width: 100%;
-  scrollbar-width: thin;
+  scrollbar-width: auto;
   scrollbar-color: rgba(157,133,255,.4) rgba(255,255,255,.05);
 }
-.row-items::-webkit-scrollbar { height: 8px; }
+.row-items::-webkit-scrollbar { height: 10px; }
 .row-items::-webkit-scrollbar-track { background: rgba(255,255,255,.05); border-radius: 999px; }
-.row-items::-webkit-scrollbar-thumb { background: rgba(157,133,255,.4); border-radius: 999px; }
+.row-items::-webkit-scrollbar-thumb { background: rgba(157,133,255,.4); border-radius: 999px; border: 2px solid rgba(24,19,40,.9); }
 
-/* Fixed tile sizing for sideways scrolling */
+/* Item Card Sizing */
 .tile {
   all: unset;
   box-sizing: border-box;
