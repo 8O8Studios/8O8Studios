@@ -27,6 +27,11 @@ async function fetchItems(groupId, sort) {
     id: i.id,
     name: i.name,
     favorites: i.favoriteCount ?? 0,
+    // New fields used by the item popup
+    price: i.price ?? i.lowestPrice ?? null,
+    priceStatus: i.priceStatus ?? null,
+    description: i.description ?? "",
+    creator: i.creatorName ?? null,
   }));
 }
 
