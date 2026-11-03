@@ -27,7 +27,7 @@ async function fetchItems(groupId, sort) {
     id: i.id,
     name: i.name,
     favorites: i.favoriteCount ?? 0,
-    // New fields used by the item popup
+    // Properly capture price from Roblox API fields
     price: i.price ?? i.lowestPrice ?? null,
     priceStatus: i.priceStatus ?? null,
     description: i.description ?? "",
