@@ -83,43 +83,69 @@ h1 span{
 .bar select option{color:#000}
 
 main{padding:20px clamp(16px,4vw,48px) 64px}
-.count{margin:0 0 20px;color:var(--muted);font-size:.9rem}
+.count{margin:0 0 16px;color:var(--muted);font-size:.9rem}
 
-/* Category Section Layout */
-.category-section{margin-bottom:36px}
-.category-title{font-size:1.25rem;font-weight:800;margin:0 0 12px;color:var(--text);letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
-.category-title span{font-size:.8rem;color:var(--muted);font-weight:600}
-
-/* Horizontal scrolling track for each category row */
-.h-scroll {
+/* Horizontal Multi-Column Board Layout */
+.board {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   overflow-x: auto;
-  padding-bottom: 12px;
+  padding-bottom: 24px;
+  align-items: flex-start;
   scrollbar-width: thin;
   scrollbar-color: var(--edge) transparent;
 }
-.h-scroll::-webkit-scrollbar {height: 6px;}
-.h-scroll::-webkit-scrollbar-thumb {background: var(--edge); border-radius: 999px;}
+.board::-webkit-scrollbar { height: 8px; }
+.board::-webkit-scrollbar-thumb { background: var(--edge); border-radius: 999px; }
 
-/* Grid fallback mode if user prefers grid */
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(172px,1fr));gap:16px}
+.column {
+  flex: 0 0 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: rgba(255,255,255,.02);
+  border: 1px solid rgba(157,133,255,.12);
+  border-radius: 20px;
+  padding: 14px 10px;
+}
+.column-title {
+  font-size: 1.05rem;
+  font-weight: 800;
+  margin: 0 0 6px 4px;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.column-title span { font-size: .78rem; color: var(--muted); font-weight: 600; }
+.column-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-height: 75vh;
+  overflow-y: auto;
+  padding-right: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--edge) transparent;
+}
+.column-items::-webkit-scrollbar { width: 4px; }
+.column-items::-webkit-scrollbar-thumb { background: var(--edge); border-radius: 999px; }
 
-.tile{all:unset;box-sizing:border-box;position:relative;cursor:pointer;display:block;width:180px;flex:0 0 180px;padding:11px;border-radius:24px;overflow:hidden;
+.tile{all:unset;box-sizing:border-box;position:relative;cursor:pointer;display:block;width:100%;padding:10px;border-radius:18px;overflow:hidden;
   background:linear-gradient(145deg,rgba(47,37,75,.76),rgba(17,27,52,.8));border:1px solid rgba(151,132,224,.22);
   -webkit-backdrop-filter:blur(18px) saturate(180%);backdrop-filter:blur(18px) saturate(180%);
-  box-shadow:inset 0 1px 0 var(--hi),inset 0 -1px 0 var(--edge),0 10px 26px -10px var(--shadow);
-  transition:transform .5s var(--spring),box-shadow .4s,border-color .3s}
-.tile:hover{transform:translateY(-6px) scale(1.02);border-color:rgba(154,132,255,.8);box-shadow:inset 0 1px 0 rgba(220,210,255,.24),0 18px 42px -14px rgba(71,65,170,.5)}
-.tile .frame{position:relative;background:linear-gradient(145deg,rgba(91,70,145,.22),rgba(37,67,125,.2));border-radius:17px;overflow:hidden}
-.tile .img,.tile .ph{aspect-ratio:1;width:100%;display:block;object-fit:contain;transition:transform .5s var(--ease)}
-.tile:hover .img{transform:scale(1.08)}
-.tile .name{position:relative;margin:10px 2px 3px;font-size:.94rem;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.6em}
-.tile .meta{position:relative;display:flex;justify-content:space-between;gap:8px;margin:0 2px;font-size:.82rem;color:var(--muted)}
+  box-shadow:inset 0 1px 0 var(--hi),inset 0 -1px 0 var(--edge),0 8px 20px -10px var(--shadow);
+  transition:transform .4s var(--spring),box-shadow .3s,border-color .3s}
+.tile:hover{transform:translateY(-4px) scale(1.02);border-color:rgba(154,132,255,.8);box-shadow:inset 0 1px 0 rgba(220,210,255,.24),0 14px 30px -10px rgba(71,65,170,.5)}
+.tile .frame{position:relative;background:linear-gradient(145deg,rgba(91,70,145,.22),rgba(37,67,125,.2));border-radius:14px;overflow:hidden}
+.tile .img,.tile .ph{aspect-ratio:1;width:100%;display:block;object-fit:contain;transition:transform .4s var(--ease)}
+.tile:hover .img{transform:scale(1.06)}
+.tile .name{position:relative;margin:8px 2px 3px;font-size:.88rem;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.5em}
+.tile .meta{position:relative;display:flex;justify-content:space-between;gap:6px;margin:0 2px;font-size:.78rem;color:var(--muted)}
 .msg{padding:48px 0;color:var(--muted);text-align:center}
 footer{padding:0 clamp(16px,4vw,48px) 32px;color:var(--muted);font-size:.85rem}
 
-/* Item Dialog Modal */
 dialog{border:1px solid var(--edge);padding:0;background:var(--panel);color:var(--text);border-radius:28px;width:min(780px,calc(100vw - 24px));max-height:calc(100vh - 24px);overflow:auto;
   -webkit-backdrop-filter:blur(30px) saturate(180%);backdrop-filter:blur(30px) saturate(180%);
   box-shadow:inset 0 1px 0 var(--hi),0 40px 90px -20px rgba(0,0,0,.8)}
@@ -184,17 +210,16 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
 
 <div class="bar">
   <input id="q" type="search" placeholder="Search items across categories" aria-label="Search items">
-  <select id="sort" aria-label="Display mode">
-    <option value="category">Horizontal Columns by Category</option>
-    <option value="latest">Standard Grid (Latest)</option>
-    <option value="best">Standard Grid (Best selling)</option>
-    <option value="fav">Standard Grid (Top favorited)</option>
+  <select id="sort" aria-label="Sort items">
+    <option value="latest">Latest arrivals</option>
+    <option value="best">Best selling</option>
+    <option value="fav">Top favorited</option>
   </select>
 </div>
 
 <main>
   <p class="count" id="count" aria-live="polite"></p>
-  <div id="content-container"></div>
+  <div class="board" id="board"></div>
 </main>
 <footer id="foot"></footer>
 
@@ -224,7 +249,7 @@ function el(tag, props = {}, ...kids){
   return n;
 }
 
-const state = { q: "", sort: "category", group: "all" };
+const state = { q: "", sort: "latest", group: "all" };
 let items = [], groups = [];
 
 function build(data){
@@ -259,46 +284,56 @@ function tile(i){
 
 function render(){
   const q = state.q.trim().toLowerCase();
-  const filtered = items.filter(i =>
+  let list = items.filter(i =>
     (state.group === "all" || String(i.groupId) === state.group) &&
     (!q || i.name.toLowerCase().includes(q) || i.groupName.toLowerCase().includes(q) || (i.category && i.category.toLowerCase().includes(q))));
 
-  const container = $("content-container");
-  container.replaceChildren();
+  const s = state.sort;
+  if (s === "fav") {
+    list.sort((a, b) => b.favorites - a.favorites);
+  } else if (s === "best") {
+    list.sort((a, b) => b.favorites - a.favorites);
+  }
 
-  if (filtered.length === 0) {
-    container.replaceChildren(el("p", { className: "msg", textContent: "No items match your search." }));
+  const board = $("board");
+  board.replaceChildren();
+
+  if (list.length === 0) {
+    board.replaceChildren(el("p", { className: "msg", textContent: "No items match your search." }));
     $("count").textContent = "0 items";
     return;
   }
 
-  if (state.sort === "category") {
-    // Group filtered items by category into horizontal scroll rows
-    const categories = ["Hats", "Hair", "Face Accessories", "Back Accessories", "Front Accessories", "Waist Accessories", "Neck Accessories", "Shoulder Accessories", "Emotes", "Clothing", "Other Accessories"];
-    
-    let renderedCount = 0;
-    categories.forEach(cat => {
-      const catItems = filtered.filter(i => (i.category || "Other Accessories") === cat);
-      if (catItems.length > 0) {
-        renderedCount += catItems.length;
-        const section = el("div", { className: "category-section" });
-        section.append(el("h3", { className: "category-title" }, cat, el("span", {}, `(${catItems.length})`)));
-        
-        const track = el("div", { className: "h-scroll" });
-        catItems.forEach(i => track.append(tile(i)));
-        section.append(track);
-        container.append(section);
-      }
-    });
-    $("count").textContent = filtered.length + (filtered.length === 1 ? " item across categories" : " items across categories");
-  } else {
-    // Standard Grid view for sorting options
-    const grid = el("div", { className: "grid" });
-    filtered.sort((a, b) => state.sort === "fav" ? b.favorites - a.favorites : b.id - a.id);
-    filtered.forEach(i => grid.append(tile(i)));
-    container.append(grid);
-    $("count").textContent = filtered.length + (filtered.length === 1 ? " item" : " items");
-  }
+  const categoryOrder = [
+    "Hats", 
+    "Hair", 
+    "Face Accessories", 
+    "Neck Accessories", 
+    "Front Accessories", 
+    "Back Accessories", 
+    "Waist Accessories", 
+    "Shoulder Accessories", 
+    "Emotes", 
+    "Clothing", 
+    "Other Accessories"
+  ];
+
+  let renderedCount = 0;
+  categoryOrder.forEach(cat => {
+    const catItems = list.filter(i => (i.category || "Other Accessories") === cat);
+    if (catItems.length > 0) {
+      renderedCount += catItems.length;
+      const col = el("div", { className: "column" });
+      col.append(el("div", { className: "column-title" }, cat, el("span", {}, `(${catItems.length})`)));
+      
+      const itemsContainer = el("div", { className: "column-items" });
+      catItems.forEach(i => itemsContainer.append(tile(i)));
+      col.append(itemsContainer);
+      board.append(col);
+    }
+  });
+
+  $("count").textContent = list.length + (list.length === 1 ? " item" : " items");
 }
 
 function renderChips(){
