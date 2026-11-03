@@ -3,8 +3,7 @@
 import { writeFile } from "node:fs/promises";
 
 const GROUP_IDS = [32663795, 799946898, 33459419, 34114424, 16114977, 564029410];
-const PER_ROW = 12;
-// Roblox catalog sort values. If a row looks wrong, change the number here.
+const PER_ROW = 15;
 const SORT = { latest: 3, bestSelling: 2, favorited: 1 };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -23,10 +22,25 @@ async function get(url) {
   throw new Error(`Rate limited: ${url}`);
 }
 
+function getCategory(thumbUrl) {
+  const url = (thumbUrl || "").toLowerCase();
+  if (url.includes("/hairaccessory/")) return "Hair";
+  if (url.includes("/hat/")) return "Hats";
+  if (url.includes("/faceaccessory/")) return "Face Accessories";
+  if (url.includes("/backaccessory/")) return "Back Accessories";
+  if (url.includes("/frontaccessory/")) return "Front Accessories";
+  if (url.includes("/waistaccessory/")) return "Waist Accessories";
+  if (url.includes("/neckaccessory/")) return "Neck Accessories";
+  if (url.includes("/shoulderaccessory/")) return "Shoulder Accessories";
+  if (url.includes("/emoteanimation/")) return "Emotes";
+  if (url.includes("/tshirtaccessory/") || url.includes("/shirt/") || url.includes("/pants/")) return "Clothing";
+  return "Other Accessories";
+}
+
 async function fetchItems(groupId, sort) {
   const url = `https://catalog.roblox.com/v1/search/items/details?CreatorTargetId=${groupId}&CreatorType=Group&SortType=${sort}&Limit=30`;
   const json = await get(url);
-  await sleep(1500); // Increased delay to avoid rate limits
+  await sleep(1500);
   return (json.data || []).slice(0, PER_ROW).map((i) => ({
     id: i.id,
     name: i.name,
@@ -46,10 +60,9 @@ for (const id of GROUP_IDS) {
   const bestSelling = await fetchItems(id, SORT.bestSelling);
   const favorited = (await fetchItems(id, SORT.favorited)).sort((a, b) => b.favorites - a.favorites);
   groups.push({ id, name: info.name, latest, bestSelling, favorited });
-  console.log(`${info.name}: ${latest.length}/${bestSelling.length}/${favorited.length} items`);
+  console.log(`${info.name}: Fetched items successfully.`);
 }
 
-// Thumbnails, 100 ids per request
 const ids = [...new Set(groups.flatMap((g) => [...g.latest, ...g.bestSelling, ...g.favorited].map((i) => i.id)))];
 const thumbs = {};
 for (let i = 0; i < ids.length; i += 100) {
@@ -58,7 +71,15 @@ for (let i = 0; i < ids.length; i += 100) {
   for (const t of json.data || []) thumbs[t.targetId] = t.imageUrl;
   await sleep(1500);
 }
-for (const g of groups) for (const row of [g.latest, g.bestSelling, g.favorited]) for (const item of row) item.image = thumbs[item.id] || null;
+
+for (const g of groups) {
+  for (const row of [g.latest, g.bestSelling, g.favorited]) {
+    for (const item of row) {
+      item.image = thumbs[item.id] || null;
+      item.category = getCategory(item.image);
+    }
+  }
+}
 
 await writeFile("data.json", JSON.stringify({ updated: new Date().toISOString(), groups }, null, 1));
-console.log("Wrote data.json");
+console.log("Wrote data.json with proper categories.");
