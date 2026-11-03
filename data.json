@@ -1,1 +1,1217 @@
-{ "updated": null, "groups": [] }
+{
+ "updated": "2026-11-03T13:32:12.680Z",
+ "groups": [
+  {
+   "id": 32663795,
+   "name": "8O8 x Crowds",
+   "latest": [
+    {
+     "id": 101385272678831,
+     "name": "Snowman",
+     "favorites": 2,
+     "image": "https://tr.rbxcdn.com/180DAY-a36ee4316838b980f6f6b942fea561cc/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 132073622485211,
+     "name": "Man Face Pumpkin",
+     "favorites": 11,
+     "image": "https://tr.rbxcdn.com/180DAY-8de321a9edb28d5df74d3306ae84274d/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14890432293,
+     "name": "Pumpkin Antlers",
+     "favorites": 15,
+     "image": "https://tr.rbxcdn.com/180DAY-6e15ccf631de4e69f5115d37d7b526d5/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14760357601,
+     "name": "Pumpkin",
+     "favorites": 7261,
+     "image": "https://tr.rbxcdn.com/180DAY-0e6eda2aa4cba35635d62476151a8ca3/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14647229457,
+     "name": "Hair",
+     "favorites": 44,
+     "image": "https://tr.rbxcdn.com/180DAY-0323cf8bd086f1ed604a7731486c7be2/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 14647246167,
+     "name": "Hair",
+     "favorites": 17,
+     "image": "https://tr.rbxcdn.com/180DAY-2ece98973a72aa743721bcc4413c590d/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 14647258304,
+     "name": "Hair",
+     "favorites": 26,
+     "image": "https://tr.rbxcdn.com/180DAY-fa5c4f6ceae846aa38405bf378d3056f/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223958632,
+     "name": "Wand",
+     "favorites": 21,
+     "image": "https://tr.rbxcdn.com/180DAY-c842cc537551f507c385f0bc69c3761c/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223970629,
+     "name": "Sword",
+     "favorites": 37,
+     "image": "https://tr.rbxcdn.com/180DAY-92ee0503bf9ec54d3fb4e70a490cea22/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223961921,
+     "name": "Brown Cowboy Hat",
+     "favorites": 7,
+     "image": "https://tr.rbxcdn.com/180DAY-196225cfe3e1925b22a0a8cccec006bd/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14223965296,
+     "name": "Trident",
+     "favorites": 18,
+     "image": "https://tr.rbxcdn.com/180DAY-2b99650f1f6a297b57d43c116b747a9c/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 13994772427,
+     "name": "Staff",
+     "favorites": 22,
+     "image": "https://tr.rbxcdn.com/180DAY-a16d100520063c1a08381486a529aa33/420/420/BackAccessory/Png/noFilter"
+    }
+   ],
+   "bestSelling": [
+    {
+     "id": 14760357601,
+     "name": "Pumpkin",
+     "favorites": 7261,
+     "image": "https://tr.rbxcdn.com/180DAY-0e6eda2aa4cba35635d62476151a8ca3/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14647258304,
+     "name": "Hair",
+     "favorites": 26,
+     "image": "https://tr.rbxcdn.com/180DAY-fa5c4f6ceae846aa38405bf378d3056f/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 14647229457,
+     "name": "Hair",
+     "favorites": 44,
+     "image": "https://tr.rbxcdn.com/180DAY-0323cf8bd086f1ed604a7731486c7be2/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223970629,
+     "name": "Sword",
+     "favorites": 37,
+     "image": "https://tr.rbxcdn.com/180DAY-92ee0503bf9ec54d3fb4e70a490cea22/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223965296,
+     "name": "Trident",
+     "favorites": 18,
+     "image": "https://tr.rbxcdn.com/180DAY-2b99650f1f6a297b57d43c116b747a9c/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223958632,
+     "name": "Wand",
+     "favorites": 21,
+     "image": "https://tr.rbxcdn.com/180DAY-c842cc537551f507c385f0bc69c3761c/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 132073622485211,
+     "name": "Man Face Pumpkin",
+     "favorites": 11,
+     "image": "https://tr.rbxcdn.com/180DAY-8de321a9edb28d5df74d3306ae84274d/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14647246167,
+     "name": "Hair",
+     "favorites": 17,
+     "image": "https://tr.rbxcdn.com/180DAY-2ece98973a72aa743721bcc4413c590d/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223961921,
+     "name": "Brown Cowboy Hat",
+     "favorites": 7,
+     "image": "https://tr.rbxcdn.com/180DAY-196225cfe3e1925b22a0a8cccec006bd/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14890432293,
+     "name": "Pumpkin Antlers",
+     "favorites": 15,
+     "image": "https://tr.rbxcdn.com/180DAY-6e15ccf631de4e69f5115d37d7b526d5/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 13994772427,
+     "name": "Staff",
+     "favorites": 22,
+     "image": "https://tr.rbxcdn.com/180DAY-a16d100520063c1a08381486a529aa33/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 101385272678831,
+     "name": "Snowman",
+     "favorites": 2,
+     "image": "https://tr.rbxcdn.com/180DAY-a36ee4316838b980f6f6b942fea561cc/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "favorited": [
+    {
+     "id": 14760357601,
+     "name": "Pumpkin",
+     "favorites": 7261,
+     "image": "https://tr.rbxcdn.com/180DAY-0e6eda2aa4cba35635d62476151a8ca3/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14647229457,
+     "name": "Hair",
+     "favorites": 44,
+     "image": "https://tr.rbxcdn.com/180DAY-0323cf8bd086f1ed604a7731486c7be2/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223970629,
+     "name": "Sword",
+     "favorites": 37,
+     "image": "https://tr.rbxcdn.com/180DAY-92ee0503bf9ec54d3fb4e70a490cea22/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14647258304,
+     "name": "Hair",
+     "favorites": 26,
+     "image": "https://tr.rbxcdn.com/180DAY-fa5c4f6ceae846aa38405bf378d3056f/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 13994772427,
+     "name": "Staff",
+     "favorites": 22,
+     "image": "https://tr.rbxcdn.com/180DAY-a16d100520063c1a08381486a529aa33/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223958632,
+     "name": "Wand",
+     "favorites": 21,
+     "image": "https://tr.rbxcdn.com/180DAY-c842cc537551f507c385f0bc69c3761c/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14223965296,
+     "name": "Trident",
+     "favorites": 18,
+     "image": "https://tr.rbxcdn.com/180DAY-2b99650f1f6a297b57d43c116b747a9c/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14647246167,
+     "name": "Hair",
+     "favorites": 17,
+     "image": "https://tr.rbxcdn.com/180DAY-2ece98973a72aa743721bcc4413c590d/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 14890432293,
+     "name": "Pumpkin Antlers",
+     "favorites": 15,
+     "image": "https://tr.rbxcdn.com/180DAY-6e15ccf631de4e69f5115d37d7b526d5/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 132073622485211,
+     "name": "Man Face Pumpkin",
+     "favorites": 11,
+     "image": "https://tr.rbxcdn.com/180DAY-8de321a9edb28d5df74d3306ae84274d/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14223961921,
+     "name": "Brown Cowboy Hat",
+     "favorites": 7,
+     "image": "https://tr.rbxcdn.com/180DAY-196225cfe3e1925b22a0a8cccec006bd/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 101385272678831,
+     "name": "Snowman",
+     "favorites": 2,
+     "image": "https://tr.rbxcdn.com/180DAY-a36ee4316838b980f6f6b942fea561cc/420/420/Hat/Png/noFilter"
+    }
+   ]
+  },
+  {
+   "id": 799946898,
+   "name": "Cuddle Co",
+   "latest": [
+    {
+     "id": 99825684285003,
+     "name": "Panda Plushie 🖤 (Standing)",
+     "favorites": 28,
+     "image": "https://tr.rbxcdn.com/180DAY-6d828c5f4d4b3cd5100c18f26402a776/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 128877816582563,
+     "name": "Brown Panda Plushie 🤎 (Standing)",
+     "favorites": 18,
+     "image": "https://tr.rbxcdn.com/180DAY-857a918e705c36be3ffc93583f23f5cd/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 75961627967918,
+     "name": "Panda Plushie 🖤 (Sitting)",
+     "favorites": 5,
+     "image": "https://tr.rbxcdn.com/180DAY-4d710da4d58f62b61eb511409e5a9fdf/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 126576694845558,
+     "name": "Brown Panda Plushie 🤎 (Sitting)",
+     "favorites": 25,
+     "image": "https://tr.rbxcdn.com/180DAY-40b784c0f078506fd56b826f16a7cca8/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "bestSelling": [
+    {
+     "id": 126576694845558,
+     "name": "Brown Panda Plushie 🤎 (Sitting)",
+     "favorites": 25,
+     "image": "https://tr.rbxcdn.com/180DAY-40b784c0f078506fd56b826f16a7cca8/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 75961627967918,
+     "name": "Panda Plushie 🖤 (Sitting)",
+     "favorites": 5,
+     "image": "https://tr.rbxcdn.com/180DAY-4d710da4d58f62b61eb511409e5a9fdf/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 99825684285003,
+     "name": "Panda Plushie 🖤 (Standing)",
+     "favorites": 28,
+     "image": "https://tr.rbxcdn.com/180DAY-6d828c5f4d4b3cd5100c18f26402a776/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 128877816582563,
+     "name": "Brown Panda Plushie 🤎 (Standing)",
+     "favorites": 18,
+     "image": "https://tr.rbxcdn.com/180DAY-857a918e705c36be3ffc93583f23f5cd/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "favorited": [
+    {
+     "id": 99825684285003,
+     "name": "Panda Plushie 🖤 (Standing)",
+     "favorites": 28,
+     "image": "https://tr.rbxcdn.com/180DAY-6d828c5f4d4b3cd5100c18f26402a776/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 126576694845558,
+     "name": "Brown Panda Plushie 🤎 (Sitting)",
+     "favorites": 25,
+     "image": "https://tr.rbxcdn.com/180DAY-40b784c0f078506fd56b826f16a7cca8/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 128877816582563,
+     "name": "Brown Panda Plushie 🤎 (Standing)",
+     "favorites": 18,
+     "image": "https://tr.rbxcdn.com/180DAY-857a918e705c36be3ffc93583f23f5cd/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 75961627967918,
+     "name": "Panda Plushie 🖤 (Sitting)",
+     "favorites": 5,
+     "image": "https://tr.rbxcdn.com/180DAY-4d710da4d58f62b61eb511409e5a9fdf/420/420/Hat/Png/noFilter"
+    }
+   ]
+  },
+  {
+   "id": 33459419,
+   "name": "One Stop Shop!",
+   "latest": [
+    {
+     "id": 15710800432,
+     "name": "Chip",
+     "favorites": 194,
+     "image": "https://tr.rbxcdn.com/180DAY-3023c4183534e9aeb89cca41fe032039/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 15606363203,
+     "name": "Bow",
+     "favorites": 25,
+     "image": "https://tr.rbxcdn.com/180DAY-65bebe13a89121398b615a01addf45c0/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15547443135,
+     "name": "Hat",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-5490b0e9da8b0e476bf7aa01756da0b7/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606353331,
+     "name": "Bow",
+     "favorites": 65,
+     "image": "https://tr.rbxcdn.com/180DAY-a441a32a56e778ad5863e12b1b887187/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606380069,
+     "name": "Bow",
+     "favorites": 13,
+     "image": "https://tr.rbxcdn.com/180DAY-fe6f59ffd4f6835f8018011ad94220ca/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15574110868,
+     "name": "Bow",
+     "favorites": 9,
+     "image": "https://tr.rbxcdn.com/180DAY-7f1f159e01ba2c687f6a72852d3b98d4/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15566322845,
+     "name": "Candy Cane",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-2d5317d135a8306fa4e4a44f54b55053/420/420/FaceAccessory/Png/noFilter"
+    },
+    {
+     "id": 15606373670,
+     "name": "Bow",
+     "favorites": 27,
+     "image": "https://tr.rbxcdn.com/180DAY-8ef8ef10980cf8fced38614cca5c2ea2/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606376757,
+     "name": "Bow",
+     "favorites": 242,
+     "image": "https://tr.rbxcdn.com/180DAY-c6d7ecbb66fef8fc641e2e5205295e53/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606369549,
+     "name": "Bow",
+     "favorites": 37,
+     "image": "https://tr.rbxcdn.com/180DAY-472cfe09e2921fb6bbb63821c033d035/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15547430620,
+     "name": "Hat",
+     "favorites": 3,
+     "image": "https://tr.rbxcdn.com/180DAY-ed11834f6f13f310aadae27ccf5c59ba/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15574129813,
+     "name": "Bow",
+     "favorites": 6,
+     "image": "https://tr.rbxcdn.com/180DAY-887cb5f513fc4eb37cd90fbe6a575243/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "bestSelling": [
+    {
+     "id": 15544316166,
+     "name": "Tangled in Christmas Lights (1.0)",
+     "favorites": 1736,
+     "image": "https://tr.rbxcdn.com/180DAY-dc54f593c33fb49a2b2559303bf48c51/420/420/FrontAccessory/Png/noFilter"
+    },
+    {
+     "id": 15606376757,
+     "name": "Bow",
+     "favorites": 242,
+     "image": "https://tr.rbxcdn.com/180DAY-c6d7ecbb66fef8fc641e2e5205295e53/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15544321249,
+     "name": "Tangled in Christmas Lights (3.0)",
+     "favorites": 199,
+     "image": "https://tr.rbxcdn.com/180DAY-50f82092ecc672c771d343b9f3f2f5b6/420/420/FrontAccessory/Png/noFilter"
+    },
+    {
+     "id": 15710800432,
+     "name": "Chip",
+     "favorites": 194,
+     "image": "https://tr.rbxcdn.com/180DAY-3023c4183534e9aeb89cca41fe032039/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 15566300897,
+     "name": "Candy Cane",
+     "favorites": 25,
+     "image": "https://tr.rbxcdn.com/180DAY-ade4386a5f9d3dfffa4168cc684d1d33/420/420/FaceAccessory/Png/noFilter"
+    },
+    {
+     "id": 15574144906,
+     "name": "Bow",
+     "favorites": 65,
+     "image": "https://tr.rbxcdn.com/180DAY-152626e1af34369a728b3bc5de6799c1/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606353331,
+     "name": "Bow",
+     "favorites": 65,
+     "image": "https://tr.rbxcdn.com/180DAY-a441a32a56e778ad5863e12b1b887187/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606369549,
+     "name": "Bow",
+     "favorites": 37,
+     "image": "https://tr.rbxcdn.com/180DAY-472cfe09e2921fb6bbb63821c033d035/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15544245115,
+     "name": "Santa Hat",
+     "favorites": 17,
+     "image": "https://tr.rbxcdn.com/180DAY-d08517d20f759b11d82f80e8441c9282/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606363203,
+     "name": "Bow",
+     "favorites": 25,
+     "image": "https://tr.rbxcdn.com/180DAY-65bebe13a89121398b615a01addf45c0/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606373670,
+     "name": "Bow",
+     "favorites": 27,
+     "image": "https://tr.rbxcdn.com/180DAY-8ef8ef10980cf8fced38614cca5c2ea2/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606389894,
+     "name": "Preppy Ginger Bread Bow",
+     "favorites": 19,
+     "image": "https://tr.rbxcdn.com/180DAY-964af7586ee2ce894f4e7630fbfa8195/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "favorited": [
+    {
+     "id": 15544316166,
+     "name": "Tangled in Christmas Lights (1.0)",
+     "favorites": 1736,
+     "image": "https://tr.rbxcdn.com/180DAY-dc54f593c33fb49a2b2559303bf48c51/420/420/FrontAccessory/Png/noFilter"
+    },
+    {
+     "id": 15606376757,
+     "name": "Bow",
+     "favorites": 242,
+     "image": "https://tr.rbxcdn.com/180DAY-c6d7ecbb66fef8fc641e2e5205295e53/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15544321249,
+     "name": "Tangled in Christmas Lights (3.0)",
+     "favorites": 199,
+     "image": "https://tr.rbxcdn.com/180DAY-50f82092ecc672c771d343b9f3f2f5b6/420/420/FrontAccessory/Png/noFilter"
+    },
+    {
+     "id": 15710800432,
+     "name": "Chip",
+     "favorites": 194,
+     "image": "https://tr.rbxcdn.com/180DAY-3023c4183534e9aeb89cca41fe032039/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 15606353331,
+     "name": "Bow",
+     "favorites": 65,
+     "image": "https://tr.rbxcdn.com/180DAY-a441a32a56e778ad5863e12b1b887187/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15574144906,
+     "name": "Bow",
+     "favorites": 65,
+     "image": "https://tr.rbxcdn.com/180DAY-152626e1af34369a728b3bc5de6799c1/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606369549,
+     "name": "Bow",
+     "favorites": 37,
+     "image": "https://tr.rbxcdn.com/180DAY-472cfe09e2921fb6bbb63821c033d035/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15559907190,
+     "name": "Mask",
+     "favorites": 33,
+     "image": "https://tr.rbxcdn.com/180DAY-1b279abf7a52ccc13124e97e3506637d/420/420/FaceAccessory/Png/noFilter"
+    },
+    {
+     "id": 15544309138,
+     "name": "Santa Hat Lights Add On",
+     "favorites": 28,
+     "image": "https://tr.rbxcdn.com/180DAY-cce4e4d4f6e39dece6f9ce9c4ebfc21a/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606373670,
+     "name": "Bow",
+     "favorites": 27,
+     "image": "https://tr.rbxcdn.com/180DAY-8ef8ef10980cf8fced38614cca5c2ea2/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15574094773,
+     "name": "Bow",
+     "favorites": 25,
+     "image": "https://tr.rbxcdn.com/180DAY-b62d7b04ee5c4ced8426fe0308e4796e/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 15606363203,
+     "name": "Bow",
+     "favorites": 25,
+     "image": "https://tr.rbxcdn.com/180DAY-65bebe13a89121398b615a01addf45c0/420/420/Hat/Png/noFilter"
+    }
+   ]
+  },
+  {
+   "id": 34114424,
+   "name": "Slept On!",
+   "latest": [
+    {
+     "id": 17009694410,
+     "name": "Beanie",
+     "favorites": 16,
+     "image": "https://tr.rbxcdn.com/180DAY-562d7a2a0b8d8543a4703919e757a0ea/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17054003402,
+     "name": "Princess Wand",
+     "favorites": 263,
+     "image": "https://tr.rbxcdn.com/180DAY-18dbe80676d60b4c6a20f777b8fce318/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17038863259,
+     "name": "Beanie",
+     "favorites": 20,
+     "image": "https://tr.rbxcdn.com/180DAY-13b0370b925966c01f6343a109906b6e/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17038841868,
+     "name": "Beanie",
+     "favorites": 19,
+     "image": "https://tr.rbxcdn.com/180DAY-d1fe1e72d7a1b3b4d74713561f298190/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17038813685,
+     "name": "Beanie",
+     "favorites": 20,
+     "image": "https://tr.rbxcdn.com/180DAY-d1f46a93d9f8c3e03b1f34dadfc4ef3b/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009761881,
+     "name": "Beanie",
+     "favorites": 6,
+     "image": "https://tr.rbxcdn.com/180DAY-edbf2d240b1b67aab4780f621016564a/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009800436,
+     "name": "Beanie",
+     "favorites": 3,
+     "image": "https://tr.rbxcdn.com/180DAY-4405a36fecce0a31ca18c6b634cbc6f3/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009706293,
+     "name": "Beanie",
+     "favorites": 2,
+     "image": "https://tr.rbxcdn.com/180DAY-f67bfe2c4f7fe3ada7804635448efee1/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009784601,
+     "name": "Beanie",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-55fc5f01ac6db452d370ff0a1f5298a0/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009771446,
+     "name": "Beanie",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-28102e54290d55423d4e54d80dffdd91/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009831187,
+     "name": "Sword",
+     "favorites": 63,
+     "image": "https://tr.rbxcdn.com/180DAY-2246f0b01099fb74740f8703996a26ee/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009626723,
+     "name": "Face",
+     "favorites": 49,
+     "image": "https://tr.rbxcdn.com/180DAY-88a03a3166a8d617c89a966a3d167b79/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "bestSelling": [
+    {
+     "id": 17054003402,
+     "name": "Princess Wand",
+     "favorites": 263,
+     "image": "https://tr.rbxcdn.com/180DAY-18dbe80676d60b4c6a20f777b8fce318/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009812743,
+     "name": "Sword",
+     "favorites": 119,
+     "image": "https://tr.rbxcdn.com/180DAY-96a22809bb75e98cf58af639b6f955a6/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009683401,
+     "name": "Beanie",
+     "favorites": 82,
+     "image": "https://tr.rbxcdn.com/180DAY-621ff6778881d22dd14c82e406715663/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009984503,
+     "name": "Sword",
+     "favorites": 92,
+     "image": "https://tr.rbxcdn.com/180DAY-b4b980350fa0a6593f54c98102d38a05/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009822978,
+     "name": "Sword",
+     "favorites": 101,
+     "image": "https://tr.rbxcdn.com/180DAY-2e472d57c5f7c26c9198a8b14c6cb1d0/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009626723,
+     "name": "Face",
+     "favorites": 49,
+     "image": "https://tr.rbxcdn.com/180DAY-88a03a3166a8d617c89a966a3d167b79/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009831187,
+     "name": "Sword",
+     "favorites": 63,
+     "image": "https://tr.rbxcdn.com/180DAY-2246f0b01099fb74740f8703996a26ee/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17038813685,
+     "name": "Beanie",
+     "favorites": 20,
+     "image": "https://tr.rbxcdn.com/180DAY-d1f46a93d9f8c3e03b1f34dadfc4ef3b/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17038841868,
+     "name": "Beanie",
+     "favorites": 19,
+     "image": "https://tr.rbxcdn.com/180DAY-d1fe1e72d7a1b3b4d74713561f298190/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17038863259,
+     "name": "Beanie",
+     "favorites": 20,
+     "image": "https://tr.rbxcdn.com/180DAY-13b0370b925966c01f6343a109906b6e/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009969308,
+     "name": "Face",
+     "favorites": 20,
+     "image": "https://tr.rbxcdn.com/180DAY-776f407b899b096c6aea65b4bd836838/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009674393,
+     "name": "Face",
+     "favorites": 2,
+     "image": "https://tr.rbxcdn.com/180DAY-25236ea6253e288f7afce0af3acf6aeb/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "favorited": [
+    {
+     "id": 17054003402,
+     "name": "Princess Wand",
+     "favorites": 263,
+     "image": "https://tr.rbxcdn.com/180DAY-18dbe80676d60b4c6a20f777b8fce318/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009812743,
+     "name": "Sword",
+     "favorites": 119,
+     "image": "https://tr.rbxcdn.com/180DAY-96a22809bb75e98cf58af639b6f955a6/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009822978,
+     "name": "Sword",
+     "favorites": 101,
+     "image": "https://tr.rbxcdn.com/180DAY-2e472d57c5f7c26c9198a8b14c6cb1d0/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009984503,
+     "name": "Sword",
+     "favorites": 92,
+     "image": "https://tr.rbxcdn.com/180DAY-b4b980350fa0a6593f54c98102d38a05/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009683401,
+     "name": "Beanie",
+     "favorites": 82,
+     "image": "https://tr.rbxcdn.com/180DAY-621ff6778881d22dd14c82e406715663/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009831187,
+     "name": "Sword",
+     "favorites": 63,
+     "image": "https://tr.rbxcdn.com/180DAY-2246f0b01099fb74740f8703996a26ee/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 17009626723,
+     "name": "Face",
+     "favorites": 49,
+     "image": "https://tr.rbxcdn.com/180DAY-88a03a3166a8d617c89a966a3d167b79/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17038813685,
+     "name": "Beanie",
+     "favorites": 20,
+     "image": "https://tr.rbxcdn.com/180DAY-d1f46a93d9f8c3e03b1f34dadfc4ef3b/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17038863259,
+     "name": "Beanie",
+     "favorites": 20,
+     "image": "https://tr.rbxcdn.com/180DAY-13b0370b925966c01f6343a109906b6e/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009969308,
+     "name": "Face",
+     "favorites": 20,
+     "image": "https://tr.rbxcdn.com/180DAY-776f407b899b096c6aea65b4bd836838/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17038841868,
+     "name": "Beanie",
+     "favorites": 19,
+     "image": "https://tr.rbxcdn.com/180DAY-d1fe1e72d7a1b3b4d74713561f298190/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 17009694410,
+     "name": "Beanie",
+     "favorites": 16,
+     "image": "https://tr.rbxcdn.com/180DAY-562d7a2a0b8d8543a4703919e757a0ea/420/420/Hat/Png/noFilter"
+    }
+   ]
+  },
+  {
+   "id": 16114977,
+   "name": "UGC Shack",
+   "latest": [
+    {
+     "id": 73863553962823,
+     "name": "Black Spikey Crown 🖤",
+     "favorites": 32,
+     "image": "https://tr.rbxcdn.com/180DAY-949756e12ad6a315ea4cb7917f0643f2/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 114532965759004,
+     "name": "Hand Stand Idle",
+     "favorites": 26,
+     "image": "https://tr.rbxcdn.com/180DAY-c87aea14b7c98eb54a11fafb05b2c9f4/420/420/EmoteAnimation/Png/noFilter"
+    },
+    {
+     "id": 108113237233392,
+     "name": "Skateboard 💙",
+     "favorites": 5,
+     "image": "https://tr.rbxcdn.com/180DAY-d25e273d02e709c22196fc4e7536ca90/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 84291400997177,
+     "name": "Skateboard 💚",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-a462cce5d0fdfc062f215244313c5772/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 109237168456726,
+     "name": "Skateboard ❤️",
+     "favorites": 13,
+     "image": "https://tr.rbxcdn.com/180DAY-e11292198e42bd4ff2c4bca9bb1b5570/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 82134557094913,
+     "name": "Reindeer Christmas Headband 🦌",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-92a8daaf66c72a073823ef4c3af516c6/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 75743184005687,
+     "name": "Aura",
+     "favorites": 157,
+     "image": "https://tr.rbxcdn.com/180DAY-a9bacc3d82915233a9cd7dc004fa1086/420/420/EmoteAnimation/Png/noFilter"
+    },
+    {
+     "id": 105184526190460,
+     "name": "Mask 🤍",
+     "favorites": 13,
+     "image": "https://tr.rbxcdn.com/180DAY-15a7bdac9b219d6bf7bcc5655aa65907/420/420/TshirtAccessory/Png/noFilter"
+    },
+    {
+     "id": 91540200037454,
+     "name": "Cutesy Sit",
+     "favorites": 50,
+     "image": "https://tr.rbxcdn.com/180DAY-c90bad2ef1d192abc5fea3e57cafc0dd/420/420/EmoteAnimation/Png/noFilter"
+    },
+    {
+     "id": 83775710882335,
+     "name": "Arm Warmers 🍪",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-f7d42f060dc3dfcebcd06b7a0bebda2f/420/420/TshirtAccessory/Png/noFilter"
+    },
+    {
+     "id": 79717652407243,
+     "name": "Arm Warmers 💚",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-7c91f89d7555c5db8bfd93a18dbffb81/420/420/TshirtAccessory/Png/noFilter"
+    },
+    {
+     "id": 107759489177189,
+     "name": "Arm Warmers 💙",
+     "favorites": 2,
+     "image": "https://tr.rbxcdn.com/180DAY-f65689a9f57cbfb1fed58953d47f0702/420/420/TshirtAccessory/Png/noFilter"
+    }
+   ],
+   "bestSelling": [
+    {
+     "id": 107920884284723,
+     "name": "Pillow 😴",
+     "favorites": 894,
+     "image": "https://tr.rbxcdn.com/180DAY-c7431ff0db2a0ef9700d9be27b3683f6/420/420/WaistAccessory/Png/noFilter"
+    },
+    {
+     "id": 14347405837,
+     "name": "Emo 👻",
+     "favorites": 491,
+     "image": "https://tr.rbxcdn.com/180DAY-c894c149b7b822883c84bcd8065f1317/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14215569497,
+     "name": "Mask 🎭",
+     "favorites": 396,
+     "image": "https://tr.rbxcdn.com/180DAY-a60f4aa5f228f67c5772ae2e63f6474c/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 111741897911952,
+     "name": "Pizza 🍕",
+     "favorites": 306,
+     "image": "https://tr.rbxcdn.com/180DAY-34bd62bd1f66f18c3c62ea4bd7dc967f/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14418638475,
+     "name": "Guitar 🎸",
+     "favorites": 591,
+     "image": "https://tr.rbxcdn.com/180DAY-ddb9164c28567bb4625360ba9e378c88/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 85212793631852,
+     "name": "Guitar 🎸",
+     "favorites": 306,
+     "image": "https://tr.rbxcdn.com/180DAY-1e7128a0bb313f0ba8d7c0e638af2eed/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14418652314,
+     "name": "Guitar 🎸",
+     "favorites": 353,
+     "image": "https://tr.rbxcdn.com/180DAY-00b821a3cebd69a3a069176907ab9f83/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14374196681,
+     "name": "GOLDEN W Shades",
+     "favorites": 89,
+     "image": "https://tr.rbxcdn.com/180DAY-f511db62ad8592fa10d82c4d4bb32cf2/420/420/FaceAccessory/Png/noFilter"
+    },
+    {
+     "id": 14347401304,
+     "name": "Crazy 🤪",
+     "favorites": 345,
+     "image": "https://tr.rbxcdn.com/180DAY-21e11188a88eca89275ca8a1a7f78c19/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14358412652,
+     "name": "Crossed out Eyes Mask",
+     "favorites": 135,
+     "image": "https://tr.rbxcdn.com/180DAY-1891847eb8bc18b22462b98eec1e0094/420/420/FaceAccessory/Png/noFilter"
+    },
+    {
+     "id": 116852216515003,
+     "name": "Guitar 🎸",
+     "favorites": 175,
+     "image": "https://tr.rbxcdn.com/180DAY-ee6edc06d60b21cc47ffea80631105c7/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14347420855,
+     "name": "Silly 😋",
+     "favorites": 444,
+     "image": "https://tr.rbxcdn.com/180DAY-eaa5bc1092e84c512a1c06dc16822526/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "favorited": [
+    {
+     "id": 107920884284723,
+     "name": "Pillow 😴",
+     "favorites": 894,
+     "image": "https://tr.rbxcdn.com/180DAY-c7431ff0db2a0ef9700d9be27b3683f6/420/420/WaistAccessory/Png/noFilter"
+    },
+    {
+     "id": 14418638475,
+     "name": "Guitar 🎸",
+     "favorites": 591,
+     "image": "https://tr.rbxcdn.com/180DAY-ddb9164c28567bb4625360ba9e378c88/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14347405837,
+     "name": "Emo 👻",
+     "favorites": 491,
+     "image": "https://tr.rbxcdn.com/180DAY-c894c149b7b822883c84bcd8065f1317/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14347420855,
+     "name": "Silly 😋",
+     "favorites": 444,
+     "image": "https://tr.rbxcdn.com/180DAY-eaa5bc1092e84c512a1c06dc16822526/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14215569497,
+     "name": "Mask 🎭",
+     "favorites": 396,
+     "image": "https://tr.rbxcdn.com/180DAY-a60f4aa5f228f67c5772ae2e63f6474c/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14418652314,
+     "name": "Guitar 🎸",
+     "favorites": 353,
+     "image": "https://tr.rbxcdn.com/180DAY-00b821a3cebd69a3a069176907ab9f83/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14347401304,
+     "name": "Crazy 🤪",
+     "favorites": 345,
+     "image": "https://tr.rbxcdn.com/180DAY-21e11188a88eca89275ca8a1a7f78c19/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 85212793631852,
+     "name": "Guitar 🎸",
+     "favorites": 306,
+     "image": "https://tr.rbxcdn.com/180DAY-1e7128a0bb313f0ba8d7c0e638af2eed/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 111741897911952,
+     "name": "Pizza 🍕",
+     "favorites": 306,
+     "image": "https://tr.rbxcdn.com/180DAY-34bd62bd1f66f18c3c62ea4bd7dc967f/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14279348080,
+     "name": "Sword 🖤",
+     "favorites": 249,
+     "image": "https://tr.rbxcdn.com/180DAY-104a37a534c1ff1b0055cb6a72965809/420/420/BackAccessory/Png/noFilter"
+    },
+    {
+     "id": 14347410824,
+     "name": "Goth 🦇",
+     "favorites": 244,
+     "image": "https://tr.rbxcdn.com/180DAY-95a59b59e8104fee9a5b8aa7405ef0ef/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 14338755079,
+     "name": "Sword 🤍",
+     "favorites": 191,
+     "image": "https://tr.rbxcdn.com/180DAY-0c20f5b442e9f81ebc6ba5b8039cd4ed/420/420/BackAccessory/Png/noFilter"
+    }
+   ]
+  },
+  {
+   "id": 564029410,
+   "name": "Mx8",
+   "latest": [
+    {
+     "id": 72882993588690,
+     "name": "Blue Brown Fur Ushanka 💙",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-3acb18385731e81b1973accffb3e3b54/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 73723188961036,
+     "name": "White Brown Fur Ushanka 🤍",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-7c93d7e302dc77c7fc1c21848f3aa991/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 108695438481377,
+     "name": "Brown Fur Ushanka 🤎",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-261f41e47266d54b0e493b7f6a08828f/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 122875034727343,
+     "name": "Black Brown Fur Ushanka 🖤",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-d6ac0e94ec0c46b3f2426a7bdbacbab5/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 77924181377987,
+     "name": "Blue Grey Fur Ushanka 💙 ",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-d0967b39c175051d0a50982ed553218a/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 85959269332249,
+     "name": "White Grey Fur Ushanka 🤍",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-2b174c0069ab8b19f867b9646099fc45/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 138621269935512,
+     "name": "Brown Grey Fur Ushanka 🤎",
+     "favorites": 1,
+     "image": "https://tr.rbxcdn.com/180DAY-e730f16db38c545d66dc939b9c946cb0/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 110436511358318,
+     "name": "Black Grey Fur Ushanka 🖤",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-419c11db8992bacb4acf1bedc5d8afe7/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 72794012116755,
+     "name": "Orange Phone 🧡",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-f312009541f46c8475b20686707b8286/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 109537038522289,
+     "name": "Green Phone 💚",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-b330d509786aa711787e3ec2ac094d8d/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 118026721394631,
+     "name": "Red Phone ❤️",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-9520ea6707150665f23e565e3e4e494c/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 133064401675225,
+     "name": "White Phone 🤍",
+     "favorites": 0,
+     "image": "https://tr.rbxcdn.com/180DAY-eea5ad32f088bce12d39571b375f9ef3/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "bestSelling": [
+    {
+     "id": 131117047023604,
+     "name": "Knife Headband 🔪",
+     "favorites": 1378,
+     "image": "https://tr.rbxcdn.com/180DAY-422f86f95828de6cce66ec5f3050cc92/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 89191246956909,
+     "name": "Hair 🖤",
+     "favorites": 185,
+     "image": "https://tr.rbxcdn.com/180DAY-f37e590c34ee3a1e517bb7c4b9703104/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 111454657524666,
+     "name": "Hair 🤎",
+     "favorites": 103,
+     "image": "https://tr.rbxcdn.com/180DAY-bac74ab6818547af58195cf37bcd9d9c/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 87638006058794,
+     "name": "Hair 🤎",
+     "favorites": 76,
+     "image": "https://tr.rbxcdn.com/180DAY-34d96d786728c4b6bce19f7132a47951/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 124308268249760,
+     "name": "Pumpkin 🎃",
+     "favorites": 38,
+     "image": "https://tr.rbxcdn.com/180DAY-c0274ea80069dec1dbab9a63d3af73cf/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 116722147693870,
+     "name": "Hair 💛",
+     "favorites": 87,
+     "image": "https://tr.rbxcdn.com/180DAY-4503de40ac3bc58d1b488dbabbc6d7b1/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 139906742527541,
+     "name": "Black Bat Aura 🖤",
+     "favorites": 12,
+     "image": "https://tr.rbxcdn.com/180DAY-5a37f7c2e576fbead10cea433d577f3a/420/420/FrontAccessory/Png/noFilter"
+    },
+    {
+     "id": 96103742664298,
+     "name": "Yellow Duck Plushie 🦆",
+     "favorites": 31,
+     "image": "https://tr.rbxcdn.com/180DAY-da33a84b2ce92be849aa6cdf52766f62/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 135642545138434,
+     "name": "Hair 💙",
+     "favorites": 30,
+     "image": "https://tr.rbxcdn.com/180DAY-a6b6b100fbbdbf2c44e924e75303d441/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 111309142240873,
+     "name": "Ghost 👻",
+     "favorites": 13,
+     "image": "https://tr.rbxcdn.com/180DAY-3352b93293449c457f2f91224dfa9f81/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 92803426435697,
+     "name": "Hair 🖤",
+     "favorites": 53,
+     "image": "https://tr.rbxcdn.com/180DAY-33b0c5d727cbd3fd262c8149ae870caf/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 140050547902461,
+     "name": "Grey Pumpkin Cat Plushie 🐈",
+     "favorites": 40,
+     "image": "https://tr.rbxcdn.com/180DAY-cb8c44857edf92acc39ffc783d81a94a/420/420/Hat/Png/noFilter"
+    }
+   ],
+   "favorited": [
+    {
+     "id": 131117047023604,
+     "name": "Knife Headband 🔪",
+     "favorites": 1378,
+     "image": "https://tr.rbxcdn.com/180DAY-422f86f95828de6cce66ec5f3050cc92/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 89191246956909,
+     "name": "Hair 🖤",
+     "favorites": 185,
+     "image": "https://tr.rbxcdn.com/180DAY-f37e590c34ee3a1e517bb7c4b9703104/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 111454657524666,
+     "name": "Hair 🤎",
+     "favorites": 103,
+     "image": "https://tr.rbxcdn.com/180DAY-bac74ab6818547af58195cf37bcd9d9c/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 116722147693870,
+     "name": "Hair 💛",
+     "favorites": 87,
+     "image": "https://tr.rbxcdn.com/180DAY-4503de40ac3bc58d1b488dbabbc6d7b1/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 87638006058794,
+     "name": "Hair 🤎",
+     "favorites": 76,
+     "image": "https://tr.rbxcdn.com/180DAY-34d96d786728c4b6bce19f7132a47951/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 140541852067444,
+     "name": "Saw Headband 🪚",
+     "favorites": 55,
+     "image": "https://tr.rbxcdn.com/180DAY-2ff3501d82615797960392f254fd0a65/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 92803426435697,
+     "name": "Hair 🖤",
+     "favorites": 53,
+     "image": "https://tr.rbxcdn.com/180DAY-33b0c5d727cbd3fd262c8149ae870caf/420/420/HairAccessory/Png/noFilter"
+    },
+    {
+     "id": 100326538288002,
+     "name": "Black Pumpkin Cat Plushie 🐈‍⬛",
+     "favorites": 45,
+     "image": "https://tr.rbxcdn.com/180DAY-6013b8133e2e26b1e9746137caa4c36b/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 140050547902461,
+     "name": "Grey Pumpkin Cat Plushie 🐈",
+     "favorites": 40,
+     "image": "https://tr.rbxcdn.com/180DAY-cb8c44857edf92acc39ffc783d81a94a/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 124308268249760,
+     "name": "Pumpkin 🎃",
+     "favorites": 38,
+     "image": "https://tr.rbxcdn.com/180DAY-c0274ea80069dec1dbab9a63d3af73cf/420/420/Hat/Png/noFilter"
+    },
+    {
+     "id": 93639058052301,
+     "name": "Black Frame Glasses 👓",
+     "favorites": 32,
+     "image": "https://tr.rbxcdn.com/180DAY-e5b63fa81a8d128dc4cad870ac0d51d2/420/420/FaceAccessory/Png/noFilter"
+    },
+    {
+     "id": 96103742664298,
+     "name": "Yellow Duck Plushie 🦆",
+     "favorites": 31,
+     "image": "https://tr.rbxcdn.com/180DAY-da33a84b2ce92be849aa6cdf52766f62/420/420/Hat/Png/noFilter"
+    }
+   ]
+  }
+ ]
+}
