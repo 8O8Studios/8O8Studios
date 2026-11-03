@@ -127,7 +127,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
 .detail .by{margin:0 0 16px;color:var(--muted)}
 .detail .by a{text-underline-offset:3px;transition:color .2s}
 .detail .by a:hover{color:var(--text)}
-.detail .price{font-size:2rem;font-weight:800;letter-spacing:-.02em;margin:0 0 4px}
+.detail .price{font-size:2rem;font-weight:800;letter-spacing:-.02em;margin:0 0 4px;color:#a995ed}
 .detail .fav{margin:0 0 16px;color:var(--muted);font-size:.9rem}
 .detail .desc{margin:0 0 22px;white-space:pre-wrap;overflow-wrap:anywhere;max-height:30vh;overflow:auto}
 .buy{display:inline-block;overflow:hidden;text-decoration:none;font-weight:800;color:var(--buy-fg);padding:14px 32px;border-radius:999px;
@@ -239,7 +239,6 @@ footer{padding-top:10px}
   *,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
 
-
 /* Dark purple + midnight blue colour refresh */
 :root{
   --accent:#9b7cff;
@@ -320,7 +319,6 @@ footer{padding-top:10px}
 :root[data-theme="dark"] :focus-visible{outline-color:#a98aff}
 :root[data-theme="dark"] .group-line{background:linear-gradient(90deg,rgba(155,124,255,.4),rgba(72,112,220,.08),transparent)}
 
-
 /* Center the main header content */
 .brand{
   text-align:center;
@@ -338,7 +336,6 @@ footer{padding-top:10px}
   margin:0 auto;
 }
 
-
 /* Social app links in the header */
 .social-links{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-shrink:0}
 .social-links a{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;color:#e9e3ff;
@@ -349,7 +346,6 @@ footer{padding-top:10px}
 .social-links svg{width:21px;height:21px;display:block}
 .social-links a:focus-visible{outline:2px solid #b69aff;outline-offset:4px}
 @media(max-width:600px){.top{align-items:center}.social-links{gap:7px}.social-links a{width:38px;height:38px;border-radius:12px}.social-links svg{width:19px;height:19px}}
-
 </style>
 </head>
 <body>
@@ -415,7 +411,6 @@ footer{padding-top:10px}
 <script>
 const $ = (id) => document.getElementById(id);
 const root = document.documentElement;
-// Keep the site in its dark purple/blue theme; the theme toggle has been replaced by social links.
 root.dataset.theme = "dark";
 
 function el(tag, props = {}, ...kids){
@@ -428,7 +423,6 @@ const state = { q: "", sort: "latest", group: "all" };
 let items = [], groups = [], firstRender = true;
 const BIG = 1e6;
 
-// Merge the three per-group lists into one deduplicated list of items.
 function build(data){
   groups = data.groups;
   const map = new Map();
@@ -467,7 +461,7 @@ function tile(i, n){
   const frame = el("div", { className: "frame" }, i.image ? el("img", { className: "img", src: i.image, alt: "", loading: "lazy" }) : el("div", { className: "ph" }));
   b.append(frame);
   b.append(el("div", { className: "name", textContent: i.name }));
-  b.append(el("div", { className: "meta" }, el("span", { textContent: typeof i.price === "number" ? priceText(i) : i.groupName }), el("span", { textContent: "★ " + Number(i.favorites).toLocaleString() })));
+  b.append(el("div", { className: "meta" }, el("span", { textContent: priceText(i) }), el("span", { textContent: "★ " + Number(i.favorites).toLocaleString() })));
   b.addEventListener("click", () => openItem(i));
   return b;
 }
