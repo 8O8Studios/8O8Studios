@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>8O8 Studios</title>
+<meta name="theme-color" content="#0c1020">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%238b5cf6'/%3E%3Cstop offset='1' stop-color='%234263d8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='Helvetica,Arial,sans-serif' font-size='25' font-weight='900' text-anchor='middle' fill='white' letter-spacing='-1.5'%3E8O8%3C/text%3E%3C/svg%3E">
 <style>
 :root{
   --bg:#080810; --bg-grad:linear-gradient(155deg,#171323 0%,#0c1020 52%,#07080f 100%);
@@ -183,6 +185,19 @@ main{padding:20px clamp(16px,2vw,32px) 64px;width:100%;max-width:100%}
 .tile .name{position:relative;margin:8px 2px 3px;font-size:.88rem;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.5em}
 .tile .meta{position:relative;display:flex;justify-content:space-between;gap:6px;margin:0 2px;font-size:.78rem;color:var(--muted)}
 .msg{padding:48px 0;color:var(--muted);text-align:center;width:100%}
+.about{
+  max-width:900px;margin:0 auto 32px;padding:28px clamp(20px,4vw,36px);text-align:center;
+  background:linear-gradient(145deg,rgba(47,37,75,.28),rgba(17,27,52,.3));
+  border:1px solid rgba(157,133,255,.12);border-radius:28px;
+  -webkit-backdrop-filter:blur(18px) saturate(140%);backdrop-filter:blur(18px) saturate(140%);
+  box-shadow:inset 0 1px 0 rgba(172,151,255,.18),0 20px 50px -24px rgba(0,0,0,.4)}
+.about h2{margin:0 0 12px;font-size:.7rem;font-weight:800;letter-spacing:.22em;color:#a995ed}
+.about p{margin:0;font-size:.7rem;font-weight:800;letter-spacing:.18em;line-height:2.1;text-transform:uppercase;color:rgba(170,166,191,.7)}
+.about a{color:#5b9dff;font-weight:800;text-decoration:none;border-bottom:1px solid rgba(91,157,255,.35);transition:color .2s,border-color .2s}
+.about a:hover{color:#8bb9ff;border-color:#8bb9ff}
+.follow{display:flex;flex-direction:column;align-items:center;gap:16px;margin:0 auto 28px;padding:0 16px}
+.follow .social-links{justify-content:center}
+.founded{margin:0;font-size:.66rem;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:rgba(170,166,191,.5)}
 footer{padding:0 clamp(16px,4vw,48px) 32px;color:var(--muted);font-size:.85rem}
 
 dialog{border:1px solid var(--edge);padding:0;background:var(--panel);color:var(--text);border-radius:28px;width:min(780px,calc(100vw - 24px));max-height:calc(100vh - 24px);overflow:auto;
@@ -266,6 +281,30 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
   <p class="count" id="count" aria-live="polite"></p>
   <div class="board" id="board"></div>
 </main>
+<section class="about" aria-labelledby="about-title">
+  <h2 id="about-title">ABOUT 8O8 STUDIOS</h2>
+  <p>
+    8O8 Studios is a Roblox studio based around 3D Modelling and UGC accessories. 8O8 Studios was founded by
+    <a href="https://www.roblox.com/users/1303580679/profile" target="_blank" rel="noopener noreferrer">@8O8Mph</a>,
+    a UGC creator and active 3D Modeller, running their own UGC group since 2023 known as
+    <a href="https://www.roblox.com/communities/16114977/UGC-Shack" target="_blank" rel="noopener noreferrer">UGC Shack</a>,
+    along with multiple uploads to their own Roblox Profile. 8O8 Studios has acquired multiple Roblox UGC groups, all of which are displayed above!
+  </p>
+</section>
+<div class="follow">
+  <nav class="social-links" aria-label="Social links (footer)">
+    <a href="https://www.roblox.com/communities/33198659/8O8-Studios" target="_blank" rel="noopener noreferrer" title="Roblox">
+      <svg viewBox="0 0 24 24"><path d="M5.1 1.8 22.2 5.1 18.9 22.2 1.8 18.9 5.1 1.8Z" fill="currentColor" transform="rotate(15 12 12)"/><path d="m10 9.2 4.8.9-.9 4.8-4.8-.9.9-4.8Z" fill="#11101c" transform="rotate(15 12 12)"/></svg>
+    </a>
+    <a href="https://x.com/8O8Studios" target="_blank" rel="noopener noreferrer" title="X / Twitter">
+      <svg viewBox="0 0 24 24"><path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 14.6 5.6 22H2.4l7.3-8.4L1.9 2h6.5l4.5 6.8L18.9 2Zm-1.1 18h1.7L7.4 3.9H5.6L17.8 20Z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/8o8studiosofficial/" target="_blank" rel="noopener noreferrer" title="Instagram">
+      <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.7" cy="6.5" r="1.2" fill="currentColor"/></svg>
+    </a>
+  </nav>
+  <p class="founded">Founded 2023</p>
+</div>
 <footer id="foot"></footer>
 
 <dialog id="dlg" aria-labelledby="d-name">
