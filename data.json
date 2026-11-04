@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T01:25:15.718Z",
+ "updated": "2026-11-04T07:40:26.716Z",
  "groups": [
   {
    "id": 32663795,
@@ -41,7 +41,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7270,
+     "favorites": 7278,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -142,7 +142,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7270,
+     "favorites": 7278,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -276,7 +276,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7270,
+     "favorites": 7278,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -3111,7 +3111,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-884fd50dbcc8c736b10bea2cad0bacf4/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-f42e14cbd767909fa289d01b1e213814/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -3403,7 +3403,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 895,
+     "favorites": 896,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -3458,7 +3458,7 @@
     {
      "id": 116852216515003,
      "name": "Guitar 🎸",
-     "favorites": 175,
+     "favorites": 177,
      "price": 140,
      "priceStatus": null,
      "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4340,7 +4340,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 895,
+     "favorites": 896,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4437,6 +4437,17 @@
      "category": "Hats"
     },
     {
+     "id": 116852216515003,
+     "name": "Guitar 🎸",
+     "favorites": 177,
+     "price": 140,
+     "priceStatus": null,
+     "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
+     "creator": "UGC Shack",
+     "image": "https://tr.rbxcdn.com/180DAY-ee6edc06d60b21cc47ffea80631105c7/420/420/BackAccessory/Png/noFilter",
+     "category": "Back Accessories"
+    },
+    {
      "id": 14358412652,
      "name": "Crossed out Eyes Mask",
      "favorites": 135,
@@ -4446,17 +4457,6 @@
      "creator": "UGC Shack",
      "image": "https://tr.rbxcdn.com/180DAY-1891847eb8bc18b22462b98eec1e0094/420/420/FaceAccessory/Png/noFilter",
      "category": "Face Accessories"
-    },
-    {
-     "id": 116852216515003,
-     "name": "Guitar 🎸",
-     "favorites": 175,
-     "price": 140,
-     "priceStatus": null,
-     "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
-     "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-ee6edc06d60b21cc47ffea80631105c7/420/420/BackAccessory/Png/noFilter",
-     "category": "Back Accessories"
     },
     {
      "id": 14347420855,
@@ -5786,7 +5786,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-884fd50dbcc8c736b10bea2cad0bacf4/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-f42e14cbd767909fa289d01b1e213814/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -5926,7 +5926,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 895,
+     "favorites": 896,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -6058,7 +6058,7 @@
     {
      "id": 116852216515003,
      "name": "Guitar 🎸",
-     "favorites": 175,
+     "favorites": 177,
      "price": 140,
      "priceStatus": null,
      "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -7471,7 +7471,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-884fd50dbcc8c736b10bea2cad0bacf4/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-f42e14cbd767909fa289d01b1e213814/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -9223,7 +9223,7 @@
     {
      "id": 116722147693870,
      "name": "Hair 💛",
-     "favorites": 87,
+     "favorites": 88,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -10508,17 +10508,6 @@
      "category": "Hats"
     },
     {
-     "id": 87239277576804,
-     "name": "Red Star Bag ❤️ (1.0)",
-     "favorites": 2,
-     "price": 55,
-     "priceStatus": null,
-     "description": "All the carrying space u need!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-a9f9e9a9ff916aa19a19b8b72aceb9a6/420/420/FrontAccessory/Png/noFilter",
-     "category": "Front Accessories"
-    },
-    {
      "id": 138207127263980,
      "name": "Black Hood 🖤",
      "favorites": 0,
@@ -10528,6 +10517,17 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-9c50006c6ef8501f14d24c43a4cf041c/420/420/Hat/Png/noFilter",
      "category": "Hats"
+    },
+    {
+     "id": 87239277576804,
+     "name": "Red Star Bag ❤️ (1.0)",
+     "favorites": 2,
+     "price": 55,
+     "priceStatus": null,
+     "description": "All the carrying space u need!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-a9f9e9a9ff916aa19a19b8b72aceb9a6/420/420/FrontAccessory/Png/noFilter",
+     "category": "Front Accessories"
     },
     {
      "id": 116600315436794,
@@ -10853,7 +10853,7 @@
     {
      "id": 116722147693870,
      "name": "Hair 💛",
-     "favorites": 87,
+     "favorites": 88,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -11071,14 +11071,14 @@
      "category": "Face Accessories"
     },
     {
-     "id": 81219581459016,
-     "name": "Hair ❤️",
+     "id": 80678185495020,
+     "name": "Hair 💜",
      "favorites": 12,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
      "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-890b64b6348cc0f97957cd9d654d3cc1/420/420/HairAccessory/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-46bc576b954290895d019f8af3b8b796/420/420/HairAccessory/Png/noFilter",
      "category": "Hair"
     },
     {
@@ -11093,6 +11093,17 @@
      "category": "Face Accessories"
     },
     {
+     "id": 81219581459016,
+     "name": "Hair ❤️",
+     "favorites": 12,
+     "price": 65,
+     "priceStatus": null,
+     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-890b64b6348cc0f97957cd9d654d3cc1/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair"
+    },
+    {
      "id": 139906742527541,
      "name": "Black Bat Aura 🖤",
      "favorites": 12,
@@ -11102,17 +11113,6 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-5a37f7c2e576fbead10cea433d577f3a/420/420/FrontAccessory/Png/noFilter",
      "category": "Front Accessories"
-    },
-    {
-     "id": 80678185495020,
-     "name": "Hair 💜",
-     "favorites": 12,
-     "price": 65,
-     "priceStatus": null,
-     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-46bc576b954290895d019f8af3b8b796/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair"
     },
     {
      "id": 138038743372515,
@@ -11918,6 +11918,17 @@
      "category": "Hats"
     },
     {
+     "id": 79396333458067,
+     "name": "White Knit Beanie 🤍",
+     "favorites": 1,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Beanie 🤍",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-9052be6400455ae450a89cbcf71a392e/420/420/Hat/Png/noFilter",
+     "category": "Hats"
+    },
+    {
      "id": 80588919492222,
      "name": "Blue Knife Headband🔪",
      "favorites": 1,
@@ -12347,17 +12358,6 @@
      "category": "Hats"
     },
     {
-     "id": 87713987107684,
-     "name": "Glowing Red Witch Hat ❤️",
-     "favorites": 0,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Wicked!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-9200d6d175676f35c465886e059f775a/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
      "id": 71832238220582,
      "name": "Grey Hood 🦈",
      "favorites": 0,
@@ -12366,6 +12366,17 @@
      "description": "Stay mysterious",
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-8d9b9f862549188ce1f6e31b72504c6b/420/420/Hat/Png/noFilter",
+     "category": "Hats"
+    },
+    {
+     "id": 87713987107684,
+     "name": "Glowing Red Witch Hat ❤️",
+     "favorites": 0,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Wicked!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-9200d6d175676f35c465886e059f775a/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -12455,17 +12466,6 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-dfb6496fb58b9ff115d37a611944b74b/420/420/FrontAccessory/Png/noFilter",
      "category": "Front Accessories"
-    },
-    {
-     "id": 140391777037848,
-     "name": "Purple Ghost Backpack 👻",
-     "favorites": 0,
-     "price": 140,
-     "priceStatus": null,
-     "description": "Filled with spooky surprises!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-366429cc261a02dccf50c70b4773a46f/420/420/BackAccessory/Png/noFilter",
-     "category": "Back Accessories"
     }
    ]
   }
