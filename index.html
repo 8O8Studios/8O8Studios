@@ -85,67 +85,59 @@ h1 span{
 main{padding:20px clamp(16px,2vw,32px) 64px;width:100%;max-width:100%}
 .count{margin:0 0 16px;color:var(--muted);font-size:.9rem;padding-left:12px}
 
-/* Horizontal Multi-Column Board Container */
-.board {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  padding: 8px 12px 24px;
-  width: 100%;
-  scrollbar-width: auto;
-  scrollbar-color: rgba(157,133,255,.4) rgba(255,255,255,.05);
+/* Board: categories stacked vertically as rows */
+.board{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  padding:8px 12px 24px;
+  width:100%;
 }
-.board::-webkit-scrollbar { height: 12px; }
-.board::-webkit-scrollbar-track { background: rgba(255,255,255,.05); border-radius: 999px; }
-.board::-webkit-scrollbar-thumb { background: rgba(157,133,255,.4); border-radius: 999px; border: 2px solid var(--bg); }
 
-/* Category Columns */
-.column {
-  flex: 0 0 220px;
-  width: 220px;
-  display: flex;
-  flex-direction: column;
-  background: rgba(255,255,255,.03);
-  border: 1px solid rgba(157,133,255,.18);
-  border-radius: 24px;
-  padding: 16px 12px;
-  max-height: 78vh;
+/* Each category = one full-width row */
+.column{
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  background:rgba(255,255,255,.03);
+  border:1px solid rgba(157,133,255,.18);
+  border-radius:24px;
+  padding:16px 14px 8px;
 }
-.column-title {
-  font-size: 1.05rem;
-  font-weight: 800;
-  margin: 0 0 12px 4px;
-  color: var(--text);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-shrink: 0;
+.column-title{
+  font-size:1.05rem;
+  font-weight:800;
+  margin:0 0 12px 4px;
+  color:var(--text);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-shrink:0;
 }
-.column-title span { font-size: .8rem; color: #a995ed; font-weight: 700; }
+.column-title span{font-size:.8rem;color:#a995ed;font-weight:700}
 
-/* Item Cards List Inside Column */
-.column-items {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  overflow-y: auto;
-  padding-right: 4px;
-  flex: 1;
-  scrollbar-width: thin;
-  scrollbar-color: rgba(157,133,255,.3) transparent;
+/* Items scroll sideways inside the row */
+.column-items{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  gap:14px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding:8px 4px 16px;
+  scrollbar-width:auto;
+  scrollbar-color:rgba(157,133,255,.4) rgba(255,255,255,.05);
 }
-.column-items::-webkit-scrollbar { width: 6px; }
-.column-items::-webkit-scrollbar-thumb { background: rgba(157,133,255,.3); border-radius: 999px; }
+.column-items::-webkit-scrollbar{height:12px}
+.column-items::-webkit-scrollbar-track{background:rgba(255,255,255,.05);border-radius:999px}
+.column-items::-webkit-scrollbar-thumb{background:rgba(157,133,255,.4);border-radius:999px;border:2px solid transparent;background-clip:padding-box}
 
-/* Fixed Card Dimensions */
-.tile{all:unset;box-sizing:border-box;position:relative;cursor:pointer;display:block;width:100%;padding:10px;border-radius:20px;overflow:hidden;
+/* Fixed card size */
+.tile{all:unset;box-sizing:border-box;position:relative;cursor:pointer;display:block;flex:0 0 190px;width:190px;padding:10px;border-radius:20px;overflow:hidden;
   background:linear-gradient(145deg,rgba(47,37,75,.76),rgba(17,27,52,.8));border:1px solid rgba(151,132,224,.22);
   -webkit-backdrop-filter:blur(18px) saturate(180%);backdrop-filter:blur(18px) saturate(180%);
   box-shadow:inset 0 1px 0 var(--hi),inset 0 -1px 0 var(--edge),0 8px 20px -10px var(--shadow);
-  transition:transform .4s var(--spring),box-shadow .3s,border-color .3s;flex-shrink:0}
+  transition:transform .4s var(--spring),box-shadow .3s,border-color .3s}
 .tile:hover{transform:translateY(-4px) scale(1.02);border-color:rgba(154,132,255,.8);box-shadow:inset 0 1px 0 rgba(220,210,255,.24),0 14px 30px -10px rgba(71,65,170,.5)}
 .tile .frame{position:relative;background:linear-gradient(145deg,rgba(91,70,145,.22),rgba(37,67,125,.2));border-radius:14px;overflow:hidden;aspect-ratio:1}
 .tile .img,.tile .ph{width:100%;height:100%;display:block;object-fit:contain;transition:transform .4s var(--ease)}
