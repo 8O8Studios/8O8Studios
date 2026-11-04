@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:24:31.630Z",
+ "updated": "2026-11-04T01:25:15.718Z",
  "groups": [
   {
    "id": 32663795,
@@ -41,7 +41,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7266,
+     "favorites": 7270,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -142,7 +142,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7266,
+     "favorites": 7270,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -276,7 +276,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7266,
+     "favorites": 7270,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -985,7 +985,7 @@
     {
      "id": 15566319206,
      "name": "Candy Cane",
-     "favorites": 3,
+     "favorites": 4,
      "price": 95,
      "priceStatus": null,
      "description": "🎄Tasty Candy Cane Treat\n\n🛍️More colours here:\nhttps://www.roblox.com/catalog?Keyword=candy%20cane%20treat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
@@ -1350,7 +1350,7 @@
     {
      "id": 15566319206,
      "name": "Candy Cane",
-     "favorites": 3,
+     "favorites": 4,
      "price": 95,
      "priceStatus": null,
      "description": "🎄Tasty Candy Cane Treat\n\n🛍️More colours here:\nhttps://www.roblox.com/catalog?Keyword=candy%20cane%20treat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
@@ -1458,6 +1458,17 @@
      "category": "Hats"
     },
     {
+     "id": 15547435512,
+     "name": "Hat",
+     "favorites": 1,
+     "price": 95,
+     "priceStatus": null,
+     "description": "🎄Grab your festive Bucket hat and build a snowman!\n\n🛍️Other colours here:\nhttps://www.roblox.com/catalog?Keyword=christmas%20bucket%20hat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
+     "creator": "One Stop Shop!",
+     "image": "https://tr.rbxcdn.com/180DAY-75b211e72acc3fa033155dd977f75fd7/420/420/Hat/Png/noFilter",
+     "category": "Hats"
+    },
+    {
      "id": 15547443135,
      "name": "Hat",
      "favorites": 1,
@@ -1488,17 +1499,6 @@
      "description": "🍬Sweet bow for your sweet hair do!\n\n🛍️More colours and styles here:\nhttps://www.roblox.com/catalog?Keyword=preppy%20bow&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin thee group for more!",
      "creator": "One Stop Shop!",
      "image": "https://tr.rbxcdn.com/180DAY-988de8bbf68d51df7278c0a863fff2ca/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
-     "id": 15547435512,
-     "name": "Hat",
-     "favorites": 1,
-     "price": 95,
-     "priceStatus": null,
-     "description": "🎄Grab your festive Bucket hat and build a snowman!\n\n🛍️Other colours here:\nhttps://www.roblox.com/catalog?Keyword=christmas%20bucket%20hat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
-     "creator": "One Stop Shop!",
-     "image": "https://tr.rbxcdn.com/180DAY-75b211e72acc3fa033155dd977f75fd7/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -1856,6 +1856,17 @@
      "category": "Hats"
     },
     {
+     "id": 15566319206,
+     "name": "Candy Cane",
+     "favorites": 4,
+     "price": 95,
+     "priceStatus": null,
+     "description": "🎄Tasty Candy Cane Treat\n\n🛍️More colours here:\nhttps://www.roblox.com/catalog?Keyword=candy%20cane%20treat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
+     "creator": "One Stop Shop!",
+     "image": "https://tr.rbxcdn.com/180DAY-9876cb8e11544721fe6266fa8de035f8/420/420/FaceAccessory/Png/noFilter",
+     "category": "Face Accessories"
+    },
+    {
      "id": 15547430620,
      "name": "Hat",
      "favorites": 3,
@@ -1865,17 +1876,6 @@
      "creator": "One Stop Shop!",
      "image": "https://tr.rbxcdn.com/180DAY-ed11834f6f13f310aadae27ccf5c59ba/420/420/Hat/Png/noFilter",
      "category": "Hats"
-    },
-    {
-     "id": 15566319206,
-     "name": "Candy Cane",
-     "favorites": 3,
-     "price": 95,
-     "priceStatus": null,
-     "description": "🎄Tasty Candy Cane Treat\n\n🛍️More colours here:\nhttps://www.roblox.com/catalog?Keyword=candy%20cane%20treat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
-     "creator": "One Stop Shop!",
-     "image": "https://tr.rbxcdn.com/180DAY-9876cb8e11544721fe6266fa8de035f8/420/420/FaceAccessory/Png/noFilter",
-     "category": "Face Accessories"
     },
     {
      "id": 15566314780,
@@ -3122,7 +3122,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-bc7a08757bdc2a63ab8f4cb368380c36/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-a153a94bcf5b2553653a4558e40149fa/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -3166,7 +3166,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-a73852c90ccd02108015822b42d13ba5/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-6a8168a0a8abebf4b1be4659ce0e1a44/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -3188,7 +3188,7 @@
      "priceStatus": null,
      "description": "👂🏻Keep those ears warm in the winter......or summer, really upto you!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-4b207af0e6ffa962bda6a0e2e6c22a55/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-ff003cac95371e8a3a7e5d13c4548116/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -3199,7 +3199,7 @@
      "priceStatus": null,
      "description": "👂🏻Keep those ears warm in the winter......or summer, really upto you!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-40125cab4355b8e82be32f0042693a5c/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-e03a5fe274ff18345afe9a291701ebff/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -3403,7 +3403,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 894,
+     "favorites": 895,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -3414,7 +3414,7 @@
     {
      "id": 82595101526948,
      "name": "Pillow 😴",
-     "favorites": 21,
+     "favorites": 22,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4340,7 +4340,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 894,
+     "favorites": 895,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4527,7 +4527,7 @@
     {
      "id": 82595101526948,
      "name": "Pillow 😴",
-     "favorites": 21,
+     "favorites": 22,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -5170,7 +5170,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-a73852c90ccd02108015822b42d13ba5/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-6a8168a0a8abebf4b1be4659ce0e1a44/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -5489,7 +5489,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-bc7a08757bdc2a63ab8f4cb368380c36/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-a153a94bcf5b2553653a4558e40149fa/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -5500,7 +5500,7 @@
      "priceStatus": null,
      "description": "👂🏻Keep those ears warm in the winter......or summer, really upto you!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-4b207af0e6ffa962bda6a0e2e6c22a55/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-ff003cac95371e8a3a7e5d13c4548116/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -5566,7 +5566,7 @@
      "priceStatus": null,
      "description": "👂🏻Keep those ears warm in the winter......or summer, really upto you!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-40125cab4355b8e82be32f0042693a5c/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-e03a5fe274ff18345afe9a291701ebff/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -5926,7 +5926,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 894,
+     "favorites": 895,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -6364,6 +6364,17 @@
      "category": "Shoulder Accessories"
     },
     {
+     "id": 82595101526948,
+     "name": "Pillow 😴",
+     "favorites": 22,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
+     "creator": "UGC Shack",
+     "image": "https://tr.rbxcdn.com/180DAY-cbee146cec611f216f3702da9dbdbc03/420/420/WaistAccessory/Png/noFilter",
+     "category": "Waist Accessories"
+    },
+    {
      "id": 16309033798,
      "name": "White Spikey Crown 👑",
      "favorites": 21,
@@ -6373,17 +6384,6 @@
      "creator": "UGC Shack",
      "image": "https://tr.rbxcdn.com/180DAY-a2cbfe149d752e1d739f601693ce1ea5/420/420/Hat/Png/noFilter",
      "category": "Hats"
-    },
-    {
-     "id": 82595101526948,
-     "name": "Pillow 😴",
-     "favorites": 21,
-     "price": 65,
-     "priceStatus": null,
-     "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
-     "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-cbee146cec611f216f3702da9dbdbc03/420/420/WaistAccessory/Png/noFilter",
-     "category": "Waist Accessories"
     },
     {
      "id": 85223665769228,
@@ -6628,17 +6628,6 @@
      "category": "Hats"
     },
     {
-     "id": 16309051348,
-     "name": "Pink and Red Spikey Crown 👑",
-     "favorites": 8,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Valentines For the Wicked!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
-     "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-1f28f71542432975f30e7e47f02de374/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
      "id": 90841630279607,
      "name": "Shirt 🦄",
      "favorites": 8,
@@ -6648,6 +6637,17 @@
      "creator": "UGC Shack",
      "image": "https://tr.rbxcdn.com/180DAY-41d6c026171adc93c291062be81fb7d5/420/420/ShirtAccessory/Png/noFilter",
      "category": "Other Accessories"
+    },
+    {
+     "id": 16309051348,
+     "name": "Pink and Red Spikey Crown 👑",
+     "favorites": 8,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Valentines For the Wicked!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
+     "creator": "UGC Shack",
+     "image": "https://tr.rbxcdn.com/180DAY-1f28f71542432975f30e7e47f02de374/420/420/Hat/Png/noFilter",
+     "category": "Hats"
     },
     {
      "id": 134844457682235,
@@ -6672,17 +6672,6 @@
      "category": "Hats"
     },
     {
-     "id": 73489725591572,
-     "name": "Tank Top 🎽",
-     "favorites": 6,
-     "price": 65,
-     "priceStatus": null,
-     "description": "Limitless ✍🏻\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
-     "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-eda4cfabe0f1853f3fde62e7effff3e5/420/420/TshirtAccessory/Png/noFilter",
-     "category": "Clothing"
-    },
-    {
      "id": 93999898622273,
      "name": "Black Angel Beanie 🖤",
      "favorites": 6,
@@ -6692,6 +6681,17 @@
      "creator": "UGC Shack",
      "image": "https://tr.rbxcdn.com/180DAY-930c934e8e07f1acf6ab73ff58193377/420/420/Hat/Png/noFilter",
      "category": "Hats"
+    },
+    {
+     "id": 73489725591572,
+     "name": "Tank Top 🎽",
+     "favorites": 6,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Limitless ✍🏻\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
+     "creator": "UGC Shack",
+     "image": "https://tr.rbxcdn.com/180DAY-eda4cfabe0f1853f3fde62e7effff3e5/420/420/TshirtAccessory/Png/noFilter",
+     "category": "Clothing"
     },
     {
      "id": 101132381301303,
@@ -6899,7 +6899,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-bc7a08757bdc2a63ab8f4cb368380c36/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-a153a94bcf5b2553653a4558e40149fa/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -7130,7 +7130,7 @@
      "priceStatus": null,
      "description": "👂🏻Keep those ears warm in the winter......or summer, really upto you!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-40125cab4355b8e82be32f0042693a5c/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-e03a5fe274ff18345afe9a291701ebff/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -7339,7 +7339,7 @@
      "priceStatus": null,
      "description": "🎧 Jam out all day!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-a73852c90ccd02108015822b42d13ba5/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-6a8168a0a8abebf4b1be4659ce0e1a44/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -7361,7 +7361,7 @@
      "priceStatus": null,
      "description": "👂🏻Keep those ears warm in the winter......or summer, really upto you!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-4b207af0e6ffa962bda6a0e2e6c22a55/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-ff003cac95371e8a3a7e5d13c4548116/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -8935,7 +8935,7 @@
     {
      "id": 116600315436794,
      "name": "Red Pumpkin Skateboard 🎃",
-     "favorites": 0,
+     "favorites": 1,
      "price": 140,
      "priceStatus": null,
      "description": "Skate through the Spooky season!",
@@ -9168,7 +9168,7 @@
     {
      "id": 131117047023604,
      "name": "Knife Headband 🔪",
-     "favorites": 1379,
+     "favorites": 1380,
      "price": 95,
      "priceStatus": null,
      "description": "Fool your friends!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9190,7 +9190,7 @@
     {
      "id": 111454657524666,
      "name": "Hair 🤎",
-     "favorites": 103,
+     "favorites": 104,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9925,6 +9925,17 @@
      "category": "Waist Accessories"
     },
     {
+     "id": 112883646647801,
+     "name": "White Fluffy Boy Hair 🤍",
+     "favorites": 1,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Fluffy!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-c55c6d8a97ff3641134a1a03f8bb91fa/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair"
+    },
+    {
      "id": 134556175492385,
      "name": "Red Bunny Plushie 🐰",
      "favorites": 1,
@@ -9989,17 +10000,6 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-6bf795c3a37bf1c8df27aba5c4e7e517/420/420/Hat/Png/noFilter",
      "category": "Hats"
-    },
-    {
-     "id": 112883646647801,
-     "name": "White Fluffy Boy Hair 🤍",
-     "favorites": 1,
-     "price": 65,
-     "priceStatus": null,
-     "description": "Fluffy!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-c55c6d8a97ff3641134a1a03f8bb91fa/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair"
     },
     {
      "id": 130032759769178,
@@ -10508,17 +10508,6 @@
      "category": "Hats"
     },
     {
-     "id": 138207127263980,
-     "name": "Black Hood 🖤",
-     "favorites": 0,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Stay mysterious!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-9c50006c6ef8501f14d24c43a4cf041c/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
      "id": 87239277576804,
      "name": "Red Star Bag ❤️ (1.0)",
      "favorites": 2,
@@ -10530,9 +10519,20 @@
      "category": "Front Accessories"
     },
     {
+     "id": 138207127263980,
+     "name": "Black Hood 🖤",
+     "favorites": 0,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Stay mysterious!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-9c50006c6ef8501f14d24c43a4cf041c/420/420/Hat/Png/noFilter",
+     "category": "Hats"
+    },
+    {
      "id": 116600315436794,
      "name": "Red Pumpkin Skateboard 🎃",
-     "favorites": 0,
+     "favorites": 1,
      "price": 140,
      "priceStatus": null,
      "description": "Skate through the Spooky season!",
@@ -10552,17 +10552,6 @@
      "category": "Back Accessories"
     },
     {
-     "id": 90250138989450,
-     "name": "Red Devil Tail ❤️",
-     "favorites": 5,
-     "price": 65,
-     "priceStatus": null,
-     "description": "Complete the evil look!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-bd882cce46ede9ed787f099a197b54da/420/420/WaistAccessory/Png/noFilter",
-     "category": "Waist Accessories"
-    },
-    {
      "id": 74782367220061,
      "name": "Black Ghost Backpack 👻",
      "favorites": 2,
@@ -10572,6 +10561,17 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-bb67568db5d77bbf93e3a1f30d0f298e/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories"
+    },
+    {
+     "id": 90250138989450,
+     "name": "Red Devil Tail ❤️",
+     "favorites": 5,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Complete the evil look!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-bd882cce46ede9ed787f099a197b54da/420/420/WaistAccessory/Png/noFilter",
+     "category": "Waist Accessories"
     },
     {
      "id": 111634424363903,
@@ -10820,7 +10820,7 @@
     {
      "id": 131117047023604,
      "name": "Knife Headband 🔪",
-     "favorites": 1379,
+     "favorites": 1380,
      "price": 95,
      "priceStatus": null,
      "description": "Fool your friends!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -10842,7 +10842,7 @@
     {
      "id": 111454657524666,
      "name": "Hair 🤎",
-     "favorites": 103,
+     "favorites": 104,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -11071,17 +11071,6 @@
      "category": "Face Accessories"
     },
     {
-     "id": 138429471592878,
-     "name": "Black Silver Frame Glasses 👓",
-     "favorites": 12,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Classy\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-05b27ba6febb6e1882fe1d3ecb40b065/420/420/FaceAccessory/Png/noFilter",
-     "category": "Face Accessories"
-    },
-    {
      "id": 81219581459016,
      "name": "Hair ❤️",
      "favorites": 12,
@@ -11091,6 +11080,17 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-890b64b6348cc0f97957cd9d654d3cc1/420/420/HairAccessory/Png/noFilter",
      "category": "Hair"
+    },
+    {
+     "id": 138429471592878,
+     "name": "Black Silver Frame Glasses 👓",
+     "favorites": 12,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Classy\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-05b27ba6febb6e1882fe1d3ecb40b065/420/420/FaceAccessory/Png/noFilter",
+     "category": "Face Accessories"
     },
     {
      "id": 139906742527541,
@@ -11830,17 +11830,6 @@
      "category": "Back Accessories"
     },
     {
-     "id": 116210438827889,
-     "name": "Glowing Blue Witch Hat 💙",
-     "favorites": 1,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Wicked!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-121fc6ac3ee675f3b29c99ea1653971b/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
      "id": 114194055764737,
      "name": "Blue Gold Frame Glasses 👓",
      "favorites": 1,
@@ -11852,15 +11841,15 @@
      "category": "Face Accessories"
     },
     {
-     "id": 74520181531052,
-     "name": "Red Fluffy Boy Hair ❤️",
+     "id": 116210438827889,
+     "name": "Glowing Blue Witch Hat 💙",
      "favorites": 1,
-     "price": 65,
+     "price": 95,
      "priceStatus": null,
-     "description": "Fluffy!",
+     "description": "Wicked!",
      "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-9d8602f558bf2c8edbfdc03072accc63/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair"
+     "image": "https://tr.rbxcdn.com/180DAY-121fc6ac3ee675f3b29c99ea1653971b/420/420/Hat/Png/noFilter",
+     "category": "Hats"
     },
     {
      "id": 72254931546109,
@@ -11871,6 +11860,17 @@
      "description": "Fit for the most evil!",
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-7229db93fa20baa8635301a981e4d734/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair"
+    },
+    {
+     "id": 74520181531052,
+     "name": "Red Fluffy Boy Hair ❤️",
+     "favorites": 1,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Fluffy!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-9d8602f558bf2c8edbfdc03072accc63/420/420/HairAccessory/Png/noFilter",
      "category": "Hair"
     },
     {
@@ -12149,17 +12149,6 @@
      "category": "Hats"
     },
     {
-     "id": 112883646647801,
-     "name": "White Fluffy Boy Hair 🤍",
-     "favorites": 1,
-     "price": 65,
-     "priceStatus": null,
-     "description": "Fluffy!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-c55c6d8a97ff3641134a1a03f8bb91fa/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair"
-    },
-    {
      "id": 131379817690595,
      "name": "Purple Black Frame Glasses 👓",
      "favorites": 1,
@@ -12169,6 +12158,17 @@
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-e33c9cbddcd57840290295797dfbce9b/420/420/FaceAccessory/Png/noFilter",
      "category": "Face Accessories"
+    },
+    {
+     "id": 112883646647801,
+     "name": "White Fluffy Boy Hair 🤍",
+     "favorites": 1,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Fluffy!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-c55c6d8a97ff3641134a1a03f8bb91fa/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair"
     },
     {
      "id": 134556175492385,
@@ -12237,17 +12237,6 @@
      "category": "Hats"
     },
     {
-     "id": 102915806231654,
-     "name": "Red Flip Phone ❤️",
-     "favorites": 0,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Phone ❤️",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-4b0fe1d441b4028d6e82d04dabc7ff37/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
      "id": 72882993588690,
      "name": "Blue Brown Fur Ushanka 💙",
      "favorites": 0,
@@ -12259,15 +12248,15 @@
      "category": "Hats"
     },
     {
-     "id": 127500380227985,
-     "name": "Green Ghost Skateboard 👻",
+     "id": 102915806231654,
+     "name": "Red Flip Phone ❤️",
      "favorites": 0,
-     "price": 140,
+     "price": 95,
      "priceStatus": null,
-     "description": "Skate through the Spooky season!",
+     "description": "Phone ❤️",
      "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-67fec44ffd44957dde15d7bb5f03d981/420/420/BackAccessory/Png/noFilter",
-     "category": "Back Accessories"
+     "image": "https://tr.rbxcdn.com/180DAY-4b0fe1d441b4028d6e82d04dabc7ff37/420/420/Hat/Png/noFilter",
+     "category": "Hats"
     },
     {
      "id": 88386565558802,
@@ -12278,6 +12267,17 @@
      "description": "Filled with spooky surprises!",
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-157a0affb9339930abc0faac9f37d40c/420/420/BackAccessory/Png/noFilter",
+     "category": "Back Accessories"
+    },
+    {
+     "id": 127500380227985,
+     "name": "Green Ghost Skateboard 👻",
+     "favorites": 0,
+     "price": 140,
+     "priceStatus": null,
+     "description": "Skate through the Spooky season!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-67fec44ffd44957dde15d7bb5f03d981/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories"
     },
     {
@@ -12325,17 +12325,6 @@
      "category": "Hats"
     },
     {
-     "id": 99060449102388,
-     "name": "Green  Flip Phone 💚",
-     "favorites": 0,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Phone 💚",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-421524938bd7f8f48db1a52e192b86e2/420/420/Hat/Png/noFilter",
-     "category": "Hats"
-    },
-    {
      "id": 133322769145541,
      "name": "Red Star Beanie ❤️",
      "favorites": 0,
@@ -12347,14 +12336,14 @@
      "category": "Hats"
     },
     {
-     "id": 71832238220582,
-     "name": "Grey Hood 🦈",
+     "id": 99060449102388,
+     "name": "Green  Flip Phone 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
-     "description": "Stay mysterious",
+     "description": "Phone 💚",
      "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-8d9b9f862549188ce1f6e31b72504c6b/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-421524938bd7f8f48db1a52e192b86e2/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
@@ -12366,6 +12355,17 @@
      "description": "Wicked!",
      "creator": "Mx8",
      "image": "https://tr.rbxcdn.com/180DAY-9200d6d175676f35c465886e059f775a/420/420/Hat/Png/noFilter",
+     "category": "Hats"
+    },
+    {
+     "id": 71832238220582,
+     "name": "Grey Hood 🦈",
+     "favorites": 0,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Stay mysterious",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-8d9b9f862549188ce1f6e31b72504c6b/420/420/Hat/Png/noFilter",
      "category": "Hats"
     },
     {
