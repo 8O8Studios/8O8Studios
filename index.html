@@ -201,6 +201,9 @@ main{padding:20px clamp(16px,2vw,32px) 64px;width:100%;max-width:100%}
   background:linear-gradient(100deg,#f4f1ff 0%,#b69aff 55%,#6f9bff 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .stat span{display:block;margin-top:9px;font-size:.66rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:rgba(170,166,191,.7)}
 .msg{padding:48px 0;color:var(--muted);text-align:center;width:100%}
+.vbadge{display:inline-block;width:1.05em;height:1.05em;flex-shrink:0;vertical-align:-.16em;margin-left:6px}
+.chip .vbadge{margin-left:0;width:14px;height:14px;vertical-align:middle}
+.tile .ph.letter{display:grid;place-items:center;font-size:3rem;font-weight:900;color:#a995ed}
 .about{
   max-width:900px;margin:0 auto 32px;padding:28px clamp(20px,4vw,36px);text-align:center;
   background:linear-gradient(145deg,rgba(47,37,75,.28),rgba(17,27,52,.3));
@@ -296,6 +299,7 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
 <main>
   <p class="count" id="count" aria-live="polite"></p>
   <div class="board" id="board"></div>
+  <div class="board" id="worked" style="padding-top:0"></div>
 </main>
 <section class="about" aria-labelledby="about-title">
   <h2 id="about-title">ABOUT 8O8 STUDIOS</h2>
@@ -352,6 +356,53 @@ function el(tag, props = {}, ...kids){
 const state = { q: "", sort: "latest", group: "all" };
 let items = [], groups = [];
 const collapsed = new Set();
+const WORKED_FALLBACK = [
+  { id: 5948929, name: "kwarm" },
+  { id: 7498332, name: "Round 2 NYC" },
+  { id: 17192115, name: "yosemit" },
+  { id: 11636314, name: "Astras Army" },
+  { id: 8108593, name: "kuma" }
+];
+const VERIFIED = '<svg class="vbadge" viewBox="0 0 24 24" role="img" aria-label="Verified"><title>Verified on Roblox</title><circle cx="12" cy="12" r="11" fill="#1a6dff"/><path d="m7 12.5 3.2 3.2L17 8.8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+function badgeEl(){
+  const t = document.createElement("template");
+  t.innerHTML = VERIFIED;
+  return t.content.firstChild;
+}
+function renderWorked(list){
+  const col = el("div", { className: "column" });
+  const head = el("div", { className: "column-title", tabIndex: 0 });
+  head.setAttribute("role", "button");
+  head.setAttribute("aria-expanded", "true");
+  const ttl = el("div", { className: "ttl" });
+  ttl.innerHTML = CHEVRON;
+  ttl.append("Worked With");
+  head.append(ttl, el("span", {}, `(${list.length})`));
+  const toggle = () => {
+    const c = col.classList.toggle("collapsed");
+    head.setAttribute("aria-expanded", String(!c));
+  };
+  head.addEventListener("click", toggle);
+  head.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } });
+
+  const row = el("div", { className: "column-items" });
+  list.forEach((w) => {
+    const name = w.name || ("Group " + w.id);
+    const a = el("a", { className: "tile", href: "https://www.roblox.com/communities/" + w.id, target: "_blank", rel: "noopener noreferrer" });
+    const frame = el("div", { className: "frame" }, w.icon
+      ? el("img", { className: "img", src: w.icon, alt: "", loading: "lazy" })
+      : el("div", { className: "ph letter", textContent: name.charAt(0).toUpperCase() }));
+    const nameEl = el("div", { className: "name", textContent: name });
+    if (w.hasVerifiedBadge) nameEl.append(badgeEl());
+    a.append(frame, nameEl);
+    a.append(el("div", { className: "meta" },
+      el("span", { textContent: w.memberCount != null ? Number(w.memberCount).toLocaleString() + " members" : "Roblox group" }),
+      el("span", { textContent: "↗" })));
+    row.append(a);
+  });
+  col.append(head, el("div", { className: "collapse" }, el("div", { className: "inner" }, row)));
+  $("worked").replaceChildren(col);
+}
 let stats = { favs: 0, groups: 0, items: 0, members: null };
 const fmt = (n) => (n == null ? "—" : Number(n).toLocaleString());
 function statsStrip(pairs){
@@ -367,7 +418,7 @@ function build(data){
   groups.forEach((g) => {
     const add = (list) => (list || []).forEach((it) => {
       if (!map.has(it.id)) {
-        map.set(it.id, { ...it, groupId: g.id, groupName: g.name, groupType: g.type });
+        map.set(it.id, { ...it, groupId: g.id, groupName: g.name, groupType: g.type, groupVerified: !!g.hasVerifiedBadge });
       }
     });
     add(g.latest); add(g.bestSelling); add(g.favorited);
@@ -473,9 +524,10 @@ function render(){
 }
 
 function renderChips(){
-  const defs = [{ id: "all", name: "All groups" }, ...groups.map((g) => ({ id: String(g.id), name: g.name }))];
+  const defs = [{ id: "all", name: "All groups" }, ...groups.map((g) => ({ id: String(g.id), name: g.name, verified: !!g.hasVerifiedBadge }))];
   $("chips").replaceChildren(...defs.map(d => {
     const c = el("button", { className: "chip", type: "button" }, el("span", { className: "led" }), d.name);
+    if (d.verified) c.append(badgeEl());
     c.setAttribute("aria-pressed", String(state.group === d.id));
     c.addEventListener("click", () => { state.group = d.id; renderChips(); render(); });
     return c;
@@ -488,6 +540,7 @@ function openItem(i){
   $("d-name").textContent = i.name;
   const by = el("a", { href: i.groupType === "User" ? "https://www.roblox.com/users/" + i.groupId + "/profile" : "https://www.roblox.com/communities/" + i.groupId, target: "_blank", rel: "noopener", textContent: i.creator || i.groupName });
   $("d-by").replaceChildren("By ", by);
+  if (i.groupVerified) $("d-by").append(badgeEl());
   $("d-price").textContent = priceText(i);
   $("d-fav").textContent = "★ " + Number(i.favorites).toLocaleString() + " favorites";
   $("d-desc").textContent = i.description || "No description available.";
@@ -529,12 +582,14 @@ ddOpts.forEach((o, idx) => {
 document.addEventListener("click", (e) => { if (!dd.contains(e.target)) setDD(false); });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape" && dd.classList.contains("open")) { setDD(false); ddBtn.focus(); } });
 
+renderWorked(WORKED_FALLBACK);
 fetch("data.json").then(r => r.json()).then(data => {
   if (!data.groups.length) {
     $("sub").textContent = "No items yet";
     return;
   }
   build(data);
+  if (data.workedWith && data.workedWith.length) renderWorked(data.workedWith);
   const gCount = groups.filter((g) => g.type !== "User").length;
   $("sub").textContent = items.length + " items from " + gCount + " groups" + (groups.length > gCount ? " & profile" : "");
   renderChips();

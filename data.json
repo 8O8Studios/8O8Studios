@@ -1,11 +1,12 @@
 {
- "updated": "2026-11-04T11:21:25.687Z",
+ "updated": "2026-11-04T11:43:38.881Z",
  "groups": [
   {
    "id": 32663795,
    "type": "Group",
    "name": "8O8 x Crowds",
    "memberCount": 197,
+   "hasVerifiedBadge": false,
    "latest": [
     {
      "id": 101385272678831,
@@ -43,7 +44,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7282,
+     "favorites": 7284,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -144,7 +145,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7282,
+     "favorites": 7284,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -278,7 +279,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7282,
+     "favorites": 7284,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -414,6 +415,7 @@
    "type": "Group",
    "name": "Cuddle Co",
    "memberCount": 6,
+   "hasVerifiedBadge": false,
    "latest": [
     {
      "id": 99825684285003,
@@ -558,6 +560,7 @@
    "type": "Group",
    "name": "One Stop Shop!",
    "memberCount": 98,
+   "hasVerifiedBadge": false,
    "latest": [
     {
      "id": 15710800432,
@@ -1868,6 +1871,7 @@
    "type": "Group",
    "name": "Slept On!",
    "memberCount": 93,
+   "hasVerifiedBadge": false,
    "latest": [
     {
      "id": 17009694410,
@@ -2606,6 +2610,7 @@
    "type": "Group",
    "name": "UGC Shack",
    "memberCount": 7998,
+   "hasVerifiedBadge": false,
    "latest": [
     {
      "id": 73863553962823,
@@ -2934,7 +2939,7 @@
      "priceStatus": null,
      "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-a04452bcdd68b03df0d36589efe33645/420/420/BackAccessory/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-9642e7e1f26a55100345ed920408e2d2/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories"
     },
     {
@@ -4130,7 +4135,7 @@
      "name": "Crossed out Eyes Mask",
      "favorites": 135,
      "price": 0,
-     "priceStatus": "Off Sale",
+     "priceStatus": null,
      "description": "soon..",
      "creator": "UGC Shack",
      "image": "https://tr.rbxcdn.com/180DAY-1891847eb8bc18b22462b98eec1e0094/420/420/FaceAccessory/Png/noFilter",
@@ -4308,7 +4313,7 @@
      "name": "Crossed out Eyes Mask",
      "favorites": 135,
      "price": 0,
-     "priceStatus": "Off Sale",
+     "priceStatus": null,
      "description": "soon..",
      "creator": "UGC Shack",
      "image": "https://tr.rbxcdn.com/180DAY-1891847eb8bc18b22462b98eec1e0094/420/420/FaceAccessory/Png/noFilter",
@@ -4684,7 +4689,7 @@
      "name": "Crossed out Eyes Mask",
      "favorites": 135,
      "price": 0,
-     "priceStatus": "Off Sale",
+     "priceStatus": null,
      "description": "soon..",
      "creator": "UGC Shack",
      "image": "https://tr.rbxcdn.com/180DAY-1891847eb8bc18b22462b98eec1e0094/420/420/FaceAccessory/Png/noFilter",
@@ -5402,7 +5407,7 @@
      "priceStatus": null,
      "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-a04452bcdd68b03df0d36589efe33645/420/420/BackAccessory/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-9642e7e1f26a55100345ed920408e2d2/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories"
     },
     {
@@ -6116,6 +6121,7 @@
    "type": "Group",
    "name": "Mx8",
    "memberCount": 42,
+   "hasVerifiedBadge": false,
    "latest": [
     {
      "id": 72882993588690,
@@ -11628,6 +11634,7 @@
    "type": "User",
    "name": "8O8Mph",
    "memberCount": null,
+   "hasVerifiedBadge": false,
    "latest": [
     {
      "id": 97071144050490,
@@ -13691,7 +13698,7 @@
      "name": "Mask",
      "favorites": 133,
      "price": 0,
-     "priceStatus": "Off Sale",
+     "priceStatus": null,
      "description": "Golden ",
      "creator": "8O8Mph",
      "image": "https://tr.rbxcdn.com/180DAY-b2b47eaa32843eec267a5241148ace38/420/420/FaceAccessory/Png/noFilter",
@@ -17743,7 +17750,7 @@
      "name": "Mask",
      "favorites": 133,
      "price": 0,
-     "priceStatus": "Off Sale",
+     "priceStatus": null,
      "description": "Golden ",
      "creator": "8O8Mph",
      "image": "https://tr.rbxcdn.com/180DAY-b2b47eaa32843eec267a5241148ace38/420/420/FaceAccessory/Png/noFilter",
@@ -21842,6 +21849,43 @@
      "category": "Face Accessories"
     }
    ]
+  }
+ ],
+ "workedWith": [
+  {
+   "id": 5948929,
+   "name": "kwarm",
+   "memberCount": 973269,
+   "hasVerifiedBadge": true,
+   "icon": "https://tr.rbxcdn.com/180DAY-ee5928899b4e9c25822757759eec039e/150/150/Image/Png/noFilter"
+  },
+  {
+   "id": 7498332,
+   "name": "Round 2 NYC",
+   "memberCount": 438198,
+   "hasVerifiedBadge": true,
+   "icon": "https://tr.rbxcdn.com/180DAY-802c67da49c945b82b69ea48a8e46413/150/150/Image/Png/noFilter"
+  },
+  {
+   "id": 17192115,
+   "name": "yosemitе",
+   "memberCount": 9443,
+   "hasVerifiedBadge": true,
+   "icon": "https://tr.rbxcdn.com/180DAY-87249609dae614261c1058785f217b72/150/150/UnapprovedImage/Png/noFilter"
+  },
+  {
+   "id": 11636314,
+   "name": "Astra's Army",
+   "memberCount": 632089,
+   "hasVerifiedBadge": true,
+   "icon": "https://tr.rbxcdn.com/180DAY-ef57596e8373177cdf112b39e300910c/150/150/Image/Png/noFilter"
+  },
+  {
+   "id": 8108593,
+   "name": "’kuma",
+   "memberCount": 28646,
+   "hasVerifiedBadge": false,
+   "icon": "https://tr.rbxcdn.com/180DAY-0cf158df21f54657f1e123a1a708c858/150/150/Image/Png/noFilter"
   }
  ]
 }

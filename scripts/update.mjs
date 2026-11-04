@@ -4,6 +4,8 @@ import { writeFile } from "node:fs/promises";
 
 const GROUP_IDS = [32663795, 799946898, 33459419, 34114424, 16114977, 564029410];
 const USER_IDS = [1303580679]; // 8O8Mph's profile
+// Groups shown in the "Worked with" section (name, members and icon are fetched automatically)
+const WORKED_WITH_IDS = [5948929, 7498332, 17192115, 11636314, 8108593];
 const SORT = { latest: 3, bestSelling: 2, favorited: 1 };
 const PAGE_SIZE = 30;         // 30 per page is known to work with this endpoint
 const MAX_PAGES = 400;        // safety limit only (400 x 30 = 12,000 items per source)
@@ -69,12 +71,12 @@ async function fetchItems(ownerId, type, sort, maxPages = MAX_PAGES) {
   return all;
 }
 
-async function addSource(list, { id, type, name, memberCount }) {
+async function addSource(list, { id, type, name, memberCount, hasVerifiedBadge }) {
   // Every item is in the "latest" list, so fetch that completely and derive the favorited list from it.
   const latest = await fetchItems(id, type, SORT.latest);
   const bestSelling = await fetchItems(id, type, SORT.bestSelling, 1); // top sellers (first page)
   const favorited = [...latest].sort((a, b) => b.favorites - a.favorites);
-  list.push({ id, type, name, memberCount, latest, bestSelling, favorited });
+  list.push({ id, type, name, memberCount, hasVerifiedBadge: !!hasVerifiedBadge, latest, bestSelling, favorited });
   console.log(`${name}: ${latest.length} items${memberCount != null ? `, ${memberCount} members` : ""}`);
 }
 
@@ -83,13 +85,13 @@ const groups = [];
 for (const id of GROUP_IDS) {
   const info = await get(`https://groups.roblox.com/v1/groups/${id}`);
   await sleep(1000);
-  await addSource(groups, { id, type: "Group", name: info.name, memberCount: info.memberCount ?? null });
+  await addSource(groups, { id, type: "Group", name: info.name, memberCount: info.memberCount ?? null, hasVerifiedBadge: info.hasVerifiedBadge ?? false });
 }
 
 for (const id of USER_IDS) {
   const info = await get(`https://users.roblox.com/v1/users/${id}`);
   await sleep(1000);
-  await addSource(groups, { id, type: "User", name: info.name, memberCount: null });
+  await addSource(groups, { id, type: "User", name: info.name, memberCount: null, hasVerifiedBadge: info.hasVerifiedBadge ?? false });
 }
 
 // Extract unique asset IDs to fetch thumbnails
@@ -112,5 +114,27 @@ for (const g of groups) {
   }
 }
 
-await writeFile("data.json", JSON.stringify({ updated: new Date().toISOString(), groups }, null, 1));
+// "Worked with" groups: name, member count and icon
+const workedWith = [];
+for (const id of WORKED_WITH_IDS) {
+  try {
+    const info = await get(`https://groups.roblox.com/v1/groups/${id}`);
+    workedWith.push({ id, name: info.name, memberCount: info.memberCount ?? null, hasVerifiedBadge: info.hasVerifiedBadge ?? false, icon: null });
+  } catch (e) {
+    console.log(`Could not load worked-with group ${id}: ${e.message}`);
+    workedWith.push({ id, name: null, memberCount: null, hasVerifiedBadge: false, icon: null });
+  }
+  await sleep(1000);
+}
+try {
+  const icons = await get(`https://thumbnails.roblox.com/v1/groups/icons?groupIds=${WORKED_WITH_IDS.join(",")}&size=150x150&format=Png&isCircular=false`);
+  for (const t of icons.data || []) {
+    const w = workedWith.find((x) => x.id === t.targetId);
+    if (w) w.icon = t.imageUrl || null;
+  }
+} catch (e) {
+  console.log(`Could not load worked-with icons: ${e.message}`);
+}
+
+await writeFile("data.json", JSON.stringify({ updated: new Date().toISOString(), groups, workedWith }, null, 1));
 console.log(`Wrote data.json: ${ids.length} unique items from ${groups.length} sources.`);
