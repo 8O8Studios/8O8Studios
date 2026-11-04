@@ -367,7 +367,7 @@ function build(data){
   groups.forEach((g) => {
     const add = (list) => (list || []).forEach((it) => {
       if (!map.has(it.id)) {
-        map.set(it.id, { ...it, groupId: g.id, groupName: g.name });
+        map.set(it.id, { ...it, groupId: g.id, groupName: g.name, groupType: g.type });
       }
     });
     add(g.latest); add(g.bestSelling); add(g.favorited);
@@ -378,7 +378,7 @@ function build(data){
   const memberSum = groups.reduce((n, g) => n + (Number(g.memberCount) || 0), 0);
   stats = {
     favs: items.reduce((n, i) => n + (Number(i.favorites) || 0), 0),
-    groups: groups.length,
+    groups: groups.filter((g) => g.type !== "User").length,
     items: items.length,
     members: data.totalMembers != null ? data.totalMembers : (memberSum > 0 ? memberSum : null)
   };
@@ -486,7 +486,7 @@ const dlg = $("dlg");
 function openItem(i){
   $("d-pic").replaceChildren(i.image ? el("img", { src: i.image, alt: i.name }) : el("div"));
   $("d-name").textContent = i.name;
-  const by = el("a", { href: "https://www.roblox.com/communities/" + i.groupId, target: "_blank", rel: "noopener", textContent: i.creator || i.groupName });
+  const by = el("a", { href: i.groupType === "User" ? "https://www.roblox.com/users/" + i.groupId + "/profile" : "https://www.roblox.com/communities/" + i.groupId, target: "_blank", rel: "noopener", textContent: i.creator || i.groupName });
   $("d-by").replaceChildren("By ", by);
   $("d-price").textContent = priceText(i);
   $("d-fav").textContent = "★ " + Number(i.favorites).toLocaleString() + " favorites";
@@ -535,7 +535,8 @@ fetch("data.json").then(r => r.json()).then(data => {
     return;
   }
   build(data);
-  $("sub").textContent = items.length + " items from " + groups.length + " groups";
+  const gCount = groups.filter((g) => g.type !== "User").length;
+  $("sub").textContent = items.length + " items from " + gCount + " groups" + (groups.length > gCount ? " & profile" : "");
   renderChips();
   render();
   if (data.updated) $("foot").textContent = "Updated " + new Date(data.updated).toLocaleString();
