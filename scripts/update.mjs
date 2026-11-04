@@ -1,6 +1,6 @@
 // Fetches ALL items for each Roblox group (and your profile) via cursor pagination and writes data.json.
 // Run locally: node update.mjs
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 
 const GROUP_IDS = [32663795, 799946898, 33459419, 34114424, 16114977, 564029410];
 const USER_IDS = [1303580679]; // 8O8Mph's profile
@@ -104,12 +104,35 @@ for (let i = 0; i < ids.length; i += 100) {
   await sleep(1000);
 }
 
+// Upload dates (used for "Latest arrivals"). Dates already saved in the old data.json are reused,
+// so only brand-new items need a request and later runs are fast.
+const dateCache = new Map();
+try {
+  const old = JSON.parse(await readFile("data.json", "utf8"));
+  for (const g of old.groups || [])
+    for (const row of [g.latest, g.bestSelling, g.favorited])
+      for (const i of row || []) if (i.created) dateCache.set(i.id, i.created);
+} catch { /* no old data.json yet */ }
+
+const missingDates = ids.filter((id) => !dateCache.has(id));
+console.log(`Fetching upload dates for ${missingDates.length} items (${dateCache.size} already known)...`);
+for (const id of missingDates) {
+  try {
+    const d = await get(`https://economy.roblox.com/v2/assets/${id}/details`);
+    if (d.Created) dateCache.set(id, d.Created);
+  } catch (e) {
+    console.log(`No date for ${id}: ${e.message}`);
+  }
+  await sleep(700);
+}
+
 // Assign thumbnails and category mappings
 for (const g of groups) {
   for (const row of [g.latest, g.bestSelling, g.favorited]) {
     for (const item of row) {
       item.image = thumbs[item.id] || null;
       item.category = getCategory(item.image);
+      item.created = dateCache.get(item.id) ?? null;
     }
   }
 }

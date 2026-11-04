@@ -458,6 +458,11 @@ function render(){
     (!q || i.name.toLowerCase().includes(q) || i.groupName.toLowerCase().includes(q) || (i.category && i.category.toLowerCase().includes(q))));
 
   const s = state.sort;
+  if (s === "latest") {
+    // Newest upload first; items without a date keep their original order at the end
+    const t = (i) => Date.parse(i.created) || 0;
+    list.sort((a, b) => t(b) - t(a));
+  }
   if (s === "fav" || s === "best") {
     list.sort((a, b) => b.favorites - a.favorites);
   }
